@@ -58,6 +58,8 @@ class AlcoholDataset:
         condition = None
         if self.dataset_group == 'education':
             condition = (dataset['isced11'] != 'All ISCED 2011 levels')
+        elif self.dataset_group == 'income':
+            condition = (dataset['quant_inc'] != 'Total')
         
         dataset = dataset[
                     (dataset['age'].isin(self.ages))
@@ -74,6 +76,8 @@ class AlcoholDataset:
         index_list = ['age', 'geo','sex', 'TIME_PERIOD']
         if self.dataset_group == 'education':
             index_list.append('isced11')
+        elif self.dataset_group == 'income':
+            index_list.append('quant_inc')
         
         self.filtered_data = dataset.pivot_table(index=index_list, 
                                                   columns='frequenc',           
