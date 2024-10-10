@@ -1,7 +1,7 @@
 import pandas as pd
 
 class AlcoholDataset:
-    def __init__(self, dataset_name, dataset_group, ages = None, frequences = None, feature_reduction = False) -> pd.DataFrame:
+    def __init__(self, dataset_name, dataset_group, ages = None, frequences = None, frequency_reduction=None) -> pd.DataFrame:
         self.dataset_group = dataset_group
         self.dataset_name = dataset_name
         self.invalid_geo = [
@@ -9,7 +9,6 @@ class AlcoholDataset:
             'European Union - 28 countries (2013-2020)',
             'Italy'
         ]
-        self.feature_reduction = feature_reduction
 
         # Default value for ages
         if ages == None:
@@ -40,9 +39,9 @@ class AlcoholDataset:
         self.cleaned_data = self.clean_data()
         self.filtered_data = self.data_filtering(self.cleaned_data)
         
-        if feature_reduction:
-            self.apply_feature_reduction()
-            
+        if frequency_reduction:
+            self.frequency_reduction()
+        
         self.pivot_dataset = self.freq_to_columns(self.filtered_data)
 
     def get_eurostat_datasets(self, dataset_name):
@@ -90,6 +89,17 @@ class AlcoholDataset:
                                                   aggfunc='sum')              
 
         return self.filtered_data.reset_index()
+    
+    def frequency_reduction(self):
+        self.filtered_data['frequenc'] = self.filtered_data['frequenc'].replace({
+        'Every day': 'Frequent drinkers',
+        'Every week': 'Frequent drinkers',
+        'Every month': 'Occasional drinkers',
+        'Less than once a month': 'Occasional drinkers',
+        'Never': 'Non-drinkers',
+        'Not in the last 12 months': 'Non-drinkers',
+        'Never or not in the last 12 months': 'Non-drinkers'
+        })
 
     def get_dataset(self):
         return self.pivot_dataset
