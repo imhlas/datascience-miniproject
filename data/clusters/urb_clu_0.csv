@@ -1,0 +1,388 @@
+;age;geo;sex;deg_urb;Every day;Every month;Every week;Less than once a month;Never or not in the last 12 months;clusters
+1;75 years or over;Austria;Females;Rural areas;4.1;29.5;18.1;9.9;38.4;0
+2;75 years or over;Austria;Females;Towns and suburbs;5.0;26.6;12.3;21.5;34.5;0
+55;75 years or over;Cyprus;Males;Rural areas;16.3;23.0;13.3;15.4;32.1;0
+90;75 years or over;Estonia;Males;Cities;6.3;19.2;8.4;46.5;19.6;0
+91;75 years or over;Estonia;Males;Rural areas;1.3;20.0;12.7;31.4;34.6;0
+92;75 years or over;Estonia;Males;Towns and suburbs;0.0;30.6;14.8;24.3;30.3;0
+96;75 years or over;Finland;Females;Cities;4.2;22.3;16.5;23.3;33.8;0
+100;75 years or over;Finland;Males;Rural areas;5.9;24.4;24.1;13.4;32.2;0
+108;75 years or over;Germany;Females;Cities;9.9;22.1;28.3;13.3;26.5;0
+109;75 years or over;Germany;Females;Rural areas;6.9;29.9;18.1;13.6;31.6;0
+110;75 years or over;Germany;Females;Towns and suburbs;10.6;25.6;20.3;13.1;30.4;0
+150;75 years or over;Iceland;Males;Cities;2.3;21.5;15.1;24.3;36.8;0
+151;75 years or over;Iceland;Males;Rural areas;2.2;22.0;23.8;18.9;33.1;0
+174;75 years or over;Latvia;Males;Cities;1.8;23.0;10.3;36.2;28.6;0
+193;75 years or over;Luxembourg;Females;Rural areas;6.5;20.1;25.1;14.1;34.2;0
+210;75 years or over;Malta;Males;Cities;18.3;29.4;7.8;21.3;23.1;0
+224;75 years or over;Norway;Females;Towns and suburbs;2.0;36.7;23.4;0.0;38.0;0
+228;75 years or over;Norway;Males;Cities;6.5;32.3;23.8;0.0;37.4;0
+229;75 years or over;Norway;Males;Rural areas;3.4;29.2;26.6;0.0;40.8;0
+240;75 years or over;Poland;Males;Cities;1.7;19.6;15.4;27.7;35.7;0
+282;75 years or over;Slovakia;Males;Cities;11.5;23.5;15.5;17.8;31.6;0
+284;75 years or over;Slovakia;Males;Towns and suburbs;5.7;23.6;12.2;23.6;35.0;0
+288;75 years or over;Slovenia;Females;Cities;6.3;25.8;11.3;29.1;27.5;0
+313;75 years or over;Sweden;Females;Rural areas;2.7;24.5;24.1;15.2;33.4;0
+314;75 years or over;Sweden;Females;Towns and suburbs;5.3;19.7;25.7;13.4;36.0;0
+318;75 years or over;Sweden;Males;Cities;5.9;20.8;29.2;9.3;34.8;0
+342;From 15 to 24 years;Austria;Females;Cities;0.0;33.1;21.4;19.1;26.4;0
+343;From 15 to 24 years;Austria;Females;Rural areas;0.0;55.4;21.7;14.8;8.1;0
+344;From 15 to 24 years;Austria;Females;Towns and suburbs;0.0;44.1;19.8;16.9;19.2;0
+348;From 15 to 24 years;Austria;Males;Cities;0.5;43.5;30.3;7.0;18.8;0
+355;From 15 to 24 years;Belgium;Females;Rural areas;0.0;44.4;30.9;9.1;15.6;0
+378;From 15 to 24 years;Croatia;Females;Cities;0.0;31.5;5.3;29.9;33.3;0
+384;From 15 to 24 years;Croatia;Males;Cities;0.0;47.6;4.8;16.1;31.4;0
+385;From 15 to 24 years;Croatia;Males;Rural areas;2.0;34.0;10.6;12.7;40.7;0
+386;From 15 to 24 years;Croatia;Males;Towns and suburbs;4.6;28.5;16.6;13.8;36.5;0
+397;From 15 to 24 years;Cyprus;Males;Rural areas;2.1;30.1;16.7;15.3;35.8;0
+402;From 15 to 24 years;Czechia;Females;Cities;0.0;36.5;22.9;26.4;14.2;0
+403;From 15 to 24 years;Czechia;Females;Rural areas;0.0;44.4;21.5;12.9;21.2;0
+404;From 15 to 24 years;Czechia;Females;Towns and suburbs;0.0;40.8;20.5;18.5;20.1;0
+414;From 15 to 24 years;Denmark;Females;Cities;0.0;46.9;28.3;17.2;7.6;0
+415;From 15 to 24 years;Denmark;Females;Rural areas;0.0;50.0;12.5;26.5;11.0;0
+416;From 15 to 24 years;Denmark;Females;Towns and suburbs;0.0;40.6;31.3;25.0;3.1;0
+421;From 15 to 24 years;Denmark;Males;Rural areas;1.0;39.4;24.0;19.2;16.3;0
+422;From 15 to 24 years;Denmark;Males;Towns and suburbs;2.0;38.8;26.5;8.2;24.5;0
+426;From 15 to 24 years;Estonia;Females;Cities;0.0;21.5;16.6;38.2;23.7;0
+427;From 15 to 24 years;Estonia;Females;Rural areas;0.0;30.8;6.0;35.5;27.7;0
+428;From 15 to 24 years;Estonia;Females;Towns and suburbs;0.0;25.8;5.4;37.6;31.2;0
+432;From 15 to 24 years;Estonia;Males;Cities;0.0;24.0;27.2;27.1;21.8;0
+433;From 15 to 24 years;Estonia;Males;Rural areas;0.6;31.4;22.9;18.1;26.9;0
+434;From 15 to 24 years;Estonia;Males;Towns and suburbs;0.0;19.0;17.6;40.8;22.6;0
+438;From 15 to 24 years;Finland;Females;Cities;0.0;38.7;24.9;16.9;19.5;0
+439;From 15 to 24 years;Finland;Females;Rural areas;0.0;34.7;15.6;26.5;23.3;0
+440;From 15 to 24 years;Finland;Females;Towns and suburbs;0.0;44.8;12.8;18.3;24.1;0
+441;From 15 to 24 years;Finland;Males;Cities;0.0;42.0;29.6;7.7;20.7;0
+442;From 15 to 24 years;Finland;Males;Rural areas;0.0;41.0;17.9;17.5;23.7;0
+443;From 15 to 24 years;Finland;Males;Towns and suburbs;0.0;36.4;31.1;14.2;18.3;0
+450;From 15 to 24 years;Germany;Females;Cities;0.3;33.2;30.7;18.9;16.9;0
+451;From 15 to 24 years;Germany;Females;Rural areas;0.7;45.3;23.0;18.9;12.0;0
+452;From 15 to 24 years;Germany;Females;Towns and suburbs;0.3;37.8;24.2;18.5;19.2;0
+464;From 15 to 24 years;Greece;Females;Towns and suburbs;0.0;29.7;21.1;14.1;35.1;0
+470;From 15 to 24 years;Greece;Males;Towns and suburbs;2.6;27.0;26.8;21.8;21.8;0
+474;From 15 to 24 years;Hungary;Females;Cities;0.0;37.5;12.3;21.4;28.7;0
+480;From 15 to 24 years;Hungary;Males;Cities;0.0;33.6;29.4;17.0;20.0;0
+481;From 15 to 24 years;Hungary;Males;Rural areas;0.7;38.7;15.6;22.3;22.6;0
+482;From 15 to 24 years;Hungary;Males;Towns and suburbs;0.5;27.9;22.6;28.3;20.7;0
+486;From 15 to 24 years;Iceland;Females;Cities;0.5;39.8;8.2;22.3;29.3;0
+487;From 15 to 24 years;Iceland;Females;Rural areas;0.0;25.8;11.6;24.9;37.7;0
+488;From 15 to 24 years;Iceland;Females;Towns and suburbs;0.0;42.7;2.8;22.6;31.9;0
+492;From 15 to 24 years;Iceland;Males;Cities;0.0;35.2;9.8;18.8;36.2;0
+493;From 15 to 24 years;Iceland;Males;Rural areas;0.0;28.3;16.6;14.9;40.2;0
+494;From 15 to 24 years;Iceland;Males;Towns and suburbs;0.0;36.7;8.0;14.4;40.9;0
+499;From 15 to 24 years;Ireland;Females;Rural areas;0.0;42.4;22.3;9.3;26.0;0
+500;From 15 to 24 years;Ireland;Females;Towns and suburbs;0.0;30.6;25.3;11.4;32.8;0
+505;From 15 to 24 years;Ireland;Males;Rural areas;0.0;39.0;25.5;4.0;31.6;0
+506;From 15 to 24 years;Ireland;Males;Towns and suburbs;0.0;30.9;28.0;7.9;33.2;0
+510;From 15 to 24 years;Latvia;Females;Cities;1.2;36.0;8.1;21.7;33.0;0
+511;From 15 to 24 years;Latvia;Females;Rural areas;0.0;35.4;5.7;27.8;31.1;0
+512;From 15 to 24 years;Latvia;Females;Towns and suburbs;0.0;25.8;11.1;35.4;27.7;0
+516;From 15 to 24 years;Latvia;Males;Cities;0.0;29.2;21.9;23.2;25.7;0
+517;From 15 to 24 years;Latvia;Males;Rural areas;0.0;40.4;7.2;28.8;23.6;0
+518;From 15 to 24 years;Latvia;Males;Towns and suburbs;0.9;32.2;7.1;37.4;22.4;0
+524;From 15 to 24 years;Lithuania;Females;Towns and suburbs;0.0;63.5;3.7;14.0;18.7;0
+528;From 15 to 24 years;Lithuania;Males;Cities;0.0;33.6;12.8;20.8;32.8;0
+529;From 15 to 24 years;Lithuania;Males;Rural areas;0.0;33.9;12.3;19.1;34.7;0
+530;From 15 to 24 years;Lithuania;Males;Towns and suburbs;0.0;40.6;0.0;18.3;41.1;0
+534;From 15 to 24 years;Luxembourg;Females;Cities;0.0;25.8;25.8;9.7;38.7;0
+535;From 15 to 24 years;Luxembourg;Females;Rural areas;0.0;40.2;15.9;18.7;25.2;0
+536;From 15 to 24 years;Luxembourg;Females;Towns and suburbs;0.0;28.2;20.2;24.3;27.4;0
+542;From 15 to 24 years;Luxembourg;Males;Towns and suburbs;0.0;44.8;26.9;7.6;20.8;0
+546;From 15 to 24 years;Malta;Females;Cities;0.0;37.9;27.1;12.5;22.6;0
+547;From 15 to 24 years;Malta;Females;Rural areas;0.0;38.5;26.9;3.8;30.8;0
+564;From 15 to 24 years;Norway;Females;Cities;0.6;59.9;14.0;0.0;25.5;0
+565;From 15 to 24 years;Norway;Females;Rural areas;0.0;69.8;6.4;0.0;23.8;0
+566;From 15 to 24 years;Norway;Females;Towns and suburbs;0.0;63.0;10.7;0.0;26.4;0
+570;From 15 to 24 years;Norway;Males;Cities;0.0;45.1;30.2;0.0;24.7;0
+571;From 15 to 24 years;Norway;Males;Rural areas;0.0;62.4;10.8;0.0;26.8;0
+572;From 15 to 24 years;Norway;Males;Towns and suburbs;0.0;58.9;15.0;0.0;26.1;0
+576;From 15 to 24 years;Poland;Females;Cities;0.0;29.6;18.1;20.7;31.6;0
+582;From 15 to 24 years;Poland;Males;Cities;2.0;34.1;24.1;13.6;26.2;0
+583;From 15 to 24 years;Poland;Males;Rural areas;0.1;31.7;13.3;16.7;38.3;0
+584;From 15 to 24 years;Poland;Males;Towns and suburbs;1.2;35.0;14.0;17.5;32.3;0
+588;From 15 to 24 years;Portugal;Females;Cities;0.0;29.6;12.1;25.2;33.1;0
+594;From 15 to 24 years;Portugal;Males;Cities;0.1;30.0;21.0;18.5;30.3;0
+624;From 15 to 24 years;Slovakia;Males;Cities;0.0;34.5;15.6;21.4;28.5;0
+625;From 15 to 24 years;Slovakia;Males;Rural areas;0.0;38.7;20.7;14.8;25.7;0
+626;From 15 to 24 years;Slovakia;Males;Towns and suburbs;0.0;34.8;19.2;12.3;33.7;0
+630;From 15 to 24 years;Slovenia;Females;Cities;0.0;28.7;15.0;23.7;32.6;0
+631;From 15 to 24 years;Slovenia;Females;Rural areas;0.8;38.0;15.9;19.1;26.2;0
+632;From 15 to 24 years;Slovenia;Females;Towns and suburbs;0.0;40.8;12.2;28.9;18.1;0
+636;From 15 to 24 years;Slovenia;Males;Cities;1.7;43.6;18.2;16.4;20.1;0
+638;From 15 to 24 years;Slovenia;Males;Towns and suburbs;3.0;39.6;28.4;13.8;15.1;0
+642;From 15 to 24 years;Spain;Females;Cities;0.0;30.5;13.7;18.4;37.4;0
+644;From 15 to 24 years;Spain;Females;Towns and suburbs;0.1;31.3;15.9;14.8;37.9;0
+648;From 15 to 24 years;Spain;Males;Cities;2.6;28.0;29.6;7.9;31.9;0
+649;From 15 to 24 years;Spain;Males;Rural areas;0.8;28.8;23.4;15.8;31.2;0
+650;From 15 to 24 years;Spain;Males;Towns and suburbs;0.0;23.6;30.8;9.9;35.8;0
+654;From 15 to 24 years;Sweden;Females;Cities;0.0;32.3;10.3;21.1;36.2;0
+656;From 15 to 24 years;Sweden;Females;Towns and suburbs;0.0;31.3;12.7;22.7;33.3;0
+660;From 15 to 24 years;Sweden;Males;Cities;0.0;36.3;12.1;15.4;36.2;0
+661;From 15 to 24 years;Sweden;Males;Rural areas;0.4;24.1;21.2;19.1;35.1;0
+662;From 15 to 24 years;Sweden;Males;Towns and suburbs;1.2;31.5;17.4;15.0;35.0;0
+678;From 15 to 24 years;United Kingdom;Females;Cities;0.0;21.1;25.4;26.9;26.6;0
+684;From 25 to 34 years;Austria;Females;Cities;0.5;32.5;20.3;21.3;25.4;0
+685;From 25 to 34 years;Austria;Females;Rural areas;0.9;39.2;15.2;23.3;21.4;0
+686;From 25 to 34 years;Austria;Females;Towns and suburbs;0.0;35.6;17.3;22.4;24.8;0
+696;From 25 to 34 years;Belgium;Females;Cities;2.1;27.4;25.0;16.0;29.5;0
+697;From 25 to 34 years;Belgium;Females;Rural areas;1.4;38.9;23.8;22.5;13.4;0
+698;From 25 to 34 years;Belgium;Females;Towns and suburbs;2.0;41.4;27.7;14.2;14.7;0
+708;From 25 to 34 years;Bulgaria;Females;Cities;4.7;47.7;13.9;12.1;21.7;0
+716;From 25 to 34 years;Bulgaria;Males;Towns and suburbs;6.1;32.2;21.2;11.0;29.4;0
+720;From 25 to 34 years;Croatia;Females;Cities;0.0;39.1;13.1;10.8;37.0;0
+727;From 25 to 34 years;Croatia;Males;Rural areas;4.2;32.4;20.9;14.9;27.6;0
+728;From 25 to 34 years;Croatia;Males;Towns and suburbs;6.8;33.7;24.8;8.0;26.7;0
+739;From 25 to 34 years;Cyprus;Males;Rural areas;2.1;46.8;21.6;5.2;24.3;0
+744;From 25 to 34 years;Czechia;Females;Cities;0.0;50.0;25.7;14.7;9.5;0
+745;From 25 to 34 years;Czechia;Females;Rural areas;2.4;39.7;28.3;19.5;10.0;0
+746;From 25 to 34 years;Czechia;Females;Towns and suburbs;1.6;35.7;22.8;19.9;20.0;0
+756;From 25 to 34 years;Denmark;Females;Cities;0.0;43.9;30.6;15.6;10.0;0
+757;From 25 to 34 years;Denmark;Females;Rural areas;0.0;32.5;14.5;35.0;17.9;0
+758;From 25 to 34 years;Denmark;Females;Towns and suburbs;0.0;38.9;19.4;27.8;13.9;0
+764;From 25 to 34 years;Denmark;Males;Towns and suburbs;2.6;36.8;28.9;23.7;7.9;0
+768;From 25 to 34 years;Estonia;Females;Cities;0.0;38.0;19.4;30.5;12.1;0
+769;From 25 to 34 years;Estonia;Females;Rural areas;0.0;37.3;16.3;33.2;13.1;0
+770;From 25 to 34 years;Estonia;Females;Towns and suburbs;0.8;33.7;13.5;31.3;20.8;0
+780;From 25 to 34 years;Finland;Females;Cities;1.1;39.4;31.1;20.8;7.7;0
+781;From 25 to 34 years;Finland;Females;Rural areas;0.0;30.7;17.4;34.2;17.7;0
+782;From 25 to 34 years;Finland;Females;Towns and suburbs;0.7;42.4;16.1;32.5;8.3;0
+793;From 25 to 34 years;Germany;Females;Rural areas;3.3;36.0;19.6;24.1;17.1;0
+794;From 25 to 34 years;Germany;Females;Towns and suburbs;0.4;32.9;28.4;23.6;14.8;0
+804;From 25 to 34 years;Greece;Females;Cities;0.8;39.9;18.5;9.8;30.9;0
+805;From 25 to 34 years;Greece;Females;Rural areas;0.0;27.6;14.6;18.3;39.5;0
+806;From 25 to 34 years;Greece;Females;Towns and suburbs;0.2;34.8;26.8;14.7;23.5;0
+816;From 25 to 34 years;Hungary;Females;Cities;0.0;30.1;15.7;27.0;27.3;0
+818;From 25 to 34 years;Hungary;Females;Towns and suburbs;0.0;24.0;7.3;35.1;33.6;0
+823;From 25 to 34 years;Hungary;Males;Rural areas;6.6;29.2;22.0;22.2;20.0;0
+824;From 25 to 34 years;Hungary;Males;Towns and suburbs;1.9;29.7;25.5;29.2;13.7;0
+828;From 25 to 34 years;Iceland;Females;Cities;0.0;41.6;16.0;36.3;6.2;0
+829;From 25 to 34 years;Iceland;Females;Rural areas;0.0;48.6;2.0;38.3;11.1;0
+830;From 25 to 34 years;Iceland;Females;Towns and suburbs;0.0;28.6;9.0;61.0;1.3;0
+834;From 25 to 34 years;Iceland;Males;Cities;0.7;44.5;28.2;18.8;7.9;0
+836;From 25 to 34 years;Iceland;Males;Towns and suburbs;0.0;46.1;15.9;27.9;10.0;0
+841;From 25 to 34 years;Ireland;Females;Rural areas;0.0;43.3;30.2;16.3;10.1;0
+842;From 25 to 34 years;Ireland;Females;Towns and suburbs;0.0;44.9;29.1;18.6;7.4;0
+852;From 25 to 34 years;Latvia;Females;Cities;0.4;39.2;17.7;24.7;18.1;0
+853;From 25 to 34 years;Latvia;Females;Rural areas;0.6;32.6;9.7;40.5;16.5;0
+854;From 25 to 34 years;Latvia;Females;Towns and suburbs;0.0;43.3;4.5;35.1;17.1;0
+859;From 25 to 34 years;Latvia;Males;Rural areas;1.6;56.0;21.1;15.7;5.6;0
+860;From 25 to 34 years;Latvia;Males;Towns and suburbs;2.0;48.6;22.7;20.7;6.0;0
+864;From 25 to 34 years;Lithuania;Females;Cities;0.0;48.1;8.4;29.2;14.3;0
+865;From 25 to 34 years;Lithuania;Females;Rural areas;0.0;44.1;6.2;33.3;16.3;0
+866;From 25 to 34 years;Lithuania;Females;Towns and suburbs;0.0;65.4;0.0;30.2;4.4;0
+870;From 25 to 34 years;Lithuania;Males;Cities;1.5;54.6;19.2;15.4;9.2;0
+872;From 25 to 34 years;Lithuania;Males;Towns and suburbs;0.0;61.9;23.8;9.5;4.8;0
+877;From 25 to 34 years;Luxembourg;Females;Rural areas;1.6;35.1;28.4;15.7;19.2;0
+878;From 25 to 34 years;Luxembourg;Females;Towns and suburbs;0.8;25.9;28.4;17.9;26.9;0
+888;From 25 to 34 years;Malta;Females;Cities;2.6;34.2;21.1;24.5;17.6;0
+889;From 25 to 34 years;Malta;Females;Rural areas;0.0;33.3;13.3;20.0;33.3;0
+907;From 25 to 34 years;Norway;Females;Rural areas;0.0;69.2;12.1;0.0;18.7;0
+908;From 25 to 34 years;Norway;Females;Towns and suburbs;0.0;59.1;12.8;0.0;28.0;0
+913;From 25 to 34 years;Norway;Males;Rural areas;0.7;61.9;26.8;0.0;10.6;0
+914;From 25 to 34 years;Norway;Males;Towns and suburbs;1.7;58.0;25.3;0.0;14.9;0
+918;From 25 to 34 years;Poland;Females;Cities;0.4;34.8;21.2;24.2;19.4;0
+919;From 25 to 34 years;Poland;Females;Rural areas;0.0;24.8;6.2;36.5;32.5;0
+920;From 25 to 34 years;Poland;Females;Towns and suburbs;0.7;30.6;11.2;31.8;25.7;0
+925;From 25 to 34 years;Poland;Males;Rural areas;3.2;41.0;27.1;19.5;9.2;0
+930;From 25 to 34 years;Portugal;Females;Cities;0.9;30.1;13.2;21.3;34.6;0
+932;From 25 to 34 years;Portugal;Females;Towns and suburbs;4.7;22.7;18.3;19.6;34.7;0
+948;From 25 to 34 years;Romania;Males;Cities;3.2;42.3;21.7;14.0;18.8;0
+960;From 25 to 34 years;Slovakia;Females;Cities;0.6;30.9;13.9;29.7;24.9;0
+961;From 25 to 34 years;Slovakia;Females;Rural areas;0.0;25.8;4.6;34.9;34.6;0
+962;From 25 to 34 years;Slovakia;Females;Towns and suburbs;0.6;33.5;7.3;31.4;27.2;0
+966;From 25 to 34 years;Slovakia;Males;Cities;3.3;37.3;21.7;26.5;11.2;0
+967;From 25 to 34 years;Slovakia;Males;Rural areas;2.2;47.9;24.4;12.3;13.3;0
+968;From 25 to 34 years;Slovakia;Males;Towns and suburbs;3.7;35.3;28.8;15.7;16.4;0
+972;From 25 to 34 years;Slovenia;Females;Cities;0.0;38.5;15.9;28.3;17.2;0
+973;From 25 to 34 years;Slovenia;Females;Rural areas;0.4;33.3;21.8;25.5;19.1;0
+974;From 25 to 34 years;Slovenia;Females;Towns and suburbs;0.6;36.6;14.5;22.3;26.0;0
+984;From 25 to 34 years;Spain;Females;Cities;2.1;28.6;23.3;16.4;29.5;0
+985;From 25 to 34 years;Spain;Females;Rural areas;3.4;24.8;15.9;19.7;36.2;0
+996;From 25 to 34 years;Sweden;Females;Cities;0.0;33.7;20.8;23.4;22.1;0
+998;From 25 to 34 years;Sweden;Females;Towns and suburbs;0.0;33.1;18.9;27.8;20.2;0
+1004;From 25 to 34 years;Sweden;Males;Towns and suburbs;0.0;45.2;27.8;13.6;13.3;0
+1026;From 35 to 44 years;Austria;Females;Cities;1.3;31.6;21.5;23.8;21.8;0
+1027;From 35 to 44 years;Austria;Females;Rural areas;0.8;47.0;16.5;21.4;14.2;0
+1028;From 35 to 44 years;Austria;Females;Towns and suburbs;1.7;37.2;24.0;24.8;12.4;0
+1050;From 35 to 44 years;Bulgaria;Females;Cities;6.4;35.1;19.0;13.8;25.7;0
+1052;From 35 to 44 years;Bulgaria;Females;Towns and suburbs;2.8;31.3;14.5;18.7;32.6;0
+1062;From 35 to 44 years;Croatia;Females;Cities;0.0;21.3;22.8;21.7;34.2;0
+1070;From 35 to 44 years;Croatia;Males;Towns and suburbs;9.5;25.7;22.8;9.6;32.3;0
+1086;From 35 to 44 years;Czechia;Females;Cities;1.5;39.8;29.4;20.4;8.8;0
+1087;From 35 to 44 years;Czechia;Females;Rural areas;0.2;33.1;26.4;17.0;23.3;0
+1099;From 35 to 44 years;Denmark;Females;Rural areas;1.7;35.2;30.7;24.6;7.8;0
+1110;From 35 to 44 years;Estonia;Females;Cities;0.0;34.6;19.3;35.0;11.1;0
+1111;From 35 to 44 years;Estonia;Females;Rural areas;0.9;37.5;12.3;37.8;11.5;0
+1112;From 35 to 44 years;Estonia;Females;Towns and suburbs;0.0;37.8;14.1;37.2;10.9;0
+1118;From 35 to 44 years;Estonia;Males;Towns and suburbs;6.4;33.6;28.7;18.8;12.6;0
+1123;From 35 to 44 years;Finland;Females;Rural areas;2.6;37.3;27.3;23.4;9.3;0
+1124;From 35 to 44 years;Finland;Females;Towns and suburbs;2.0;33.6;31.5;24.5;8.4;0
+1135;From 35 to 44 years;Germany;Females;Rural areas;2.6;31.1;30.0;24.4;11.9;0
+1146;From 35 to 44 years;Greece;Females;Cities;1.3;29.0;24.9;16.8;27.9;0
+1147;From 35 to 44 years;Greece;Females;Rural areas;4.5;30.1;13.7;15.1;36.6;0
+1148;From 35 to 44 years;Greece;Females;Towns and suburbs;3.5;36.8;18.2;15.9;25.5;0
+1158;From 35 to 44 years;Hungary;Females;Cities;1.9;31.3;9.6;32.0;25.2;0
+1164;From 35 to 44 years;Hungary;Males;Cities;2.9;29.5;29.7;15.3;22.5;0
+1165;From 35 to 44 years;Hungary;Males;Rural areas;6.6;29.4;24.4;23.2;16.3;0
+1170;From 35 to 44 years;Iceland;Females;Cities;0.0;49.1;16.7;27.4;6.9;0
+1171;From 35 to 44 years;Iceland;Females;Rural areas;3.3;33.0;15.7;32.4;15.6;0
+1172;From 35 to 44 years;Iceland;Females;Towns and suburbs;0.0;38.8;2.8;39.4;19.0;0
+1176;From 35 to 44 years;Iceland;Males;Cities;1.2;42.0;26.8;13.7;16.3;0
+1177;From 35 to 44 years;Iceland;Males;Rural areas;0.0;46.1;19.6;30.0;4.3;0
+1178;From 35 to 44 years;Iceland;Males;Towns and suburbs;1.9;53.6;13.3;25.6;5.5;0
+1194;From 35 to 44 years;Latvia;Females;Cities;0.5;35.4;22.5;30.2;11.3;0
+1195;From 35 to 44 years;Latvia;Females;Rural areas;0.0;36.8;7.1;40.4;15.8;0
+1196;From 35 to 44 years;Latvia;Females;Towns and suburbs;1.6;50.2;7.0;33.3;8.0;0
+1200;From 35 to 44 years;Latvia;Males;Cities;4.2;40.5;27.2;18.9;9.2;0
+1201;From 35 to 44 years;Latvia;Males;Rural areas;4.3;43.4;23.9;13.8;14.6;0
+1202;From 35 to 44 years;Latvia;Males;Towns and suburbs;0.0;45.3;27.6;13.2;13.8;0
+1206;From 35 to 44 years;Lithuania;Females;Cities;0.0;53.6;13.3;19.3;13.8;0
+1207;From 35 to 44 years;Lithuania;Females;Rural areas;0.5;44.3;4.7;33.3;17.2;0
+1208;From 35 to 44 years;Lithuania;Females;Towns and suburbs;0.0;54.1;10.9;32.3;2.7;0
+1212;From 35 to 44 years;Lithuania;Males;Cities;0.9;43.1;27.5;16.5;11.9;0
+1230;From 35 to 44 years;Malta;Females;Cities;0.8;26.8;18.6;20.4;33.5;0
+1231;From 35 to 44 years;Malta;Females;Rural areas;5.0;35.0;20.0;5.0;35.0;0
+1232;From 35 to 44 years;Malta;Females;Towns and suburbs;1.4;29.1;25.1;20.0;24.4;0
+1248;From 35 to 44 years;Norway;Females;Cities;1.9;48.1;28.2;0.0;21.8;0
+1249;From 35 to 44 years;Norway;Females;Rural areas;0.7;59.1;22.0;0.0;18.2;0
+1250;From 35 to 44 years;Norway;Females;Towns and suburbs;0.2;56.5;21.7;0.0;21.6;0
+1260;From 35 to 44 years;Poland;Females;Cities;0.3;36.7;17.1;28.4;17.5;0
+1261;From 35 to 44 years;Poland;Females;Rural areas;0.2;26.5;6.6;37.2;29.5;0
+1262;From 35 to 44 years;Poland;Females;Towns and suburbs;0.1;34.4;13.1;32.2;20.2;0
+1267;From 35 to 44 years;Poland;Males;Rural areas;3.1;42.0;26.8;18.9;9.2;0
+1272;From 35 to 44 years;Portugal;Females;Cities;9.1;26.1;14.1;17.3;33.3;0
+1290;From 35 to 44 years;Romania;Males;Cities;3.5;41.4;24.0;11.4;19.6;0
+1302;From 35 to 44 years;Slovakia;Females;Cities;2.2;29.7;10.2;33.5;24.4;0
+1303;From 35 to 44 years;Slovakia;Females;Rural areas;0.0;31.4;11.2;24.8;32.5;0
+1304;From 35 to 44 years;Slovakia;Females;Towns and suburbs;0.5;35.1;11.6;28.6;24.3;0
+1308;From 35 to 44 years;Slovakia;Males;Cities;9.4;37.2;23.4;22.3;7.7;0
+1310;From 35 to 44 years;Slovakia;Males;Towns and suburbs;3.1;42.2;26.8;14.9;13.1;0
+1314;From 35 to 44 years;Slovenia;Females;Cities;0.0;29.9;21.2;23.8;25.1;0
+1315;From 35 to 44 years;Slovenia;Females;Rural areas;0.8;30.6;18.0;27.7;22.8;0
+1316;From 35 to 44 years;Slovenia;Females;Towns and suburbs;2.7;27.5;11.9;35.5;22.4;0
+1326;From 35 to 44 years;Spain;Females;Cities;4.6;22.9;22.7;17.0;32.8;0
+1327;From 35 to 44 years;Spain;Females;Rural areas;4.8;22.1;17.2;19.3;36.7;0
+1328;From 35 to 44 years;Spain;Females;Towns and suburbs;3.4;24.5;20.4;18.4;33.2;0
+1340;From 35 to 44 years;Sweden;Females;Towns and suburbs;1.1;32.4;30.6;21.2;14.7;0
+1368;From 45 to 54 years;Austria;Females;Cities;2.9;27.0;28.5;15.2;26.4;0
+1369;From 45 to 54 years;Austria;Females;Rural areas;1.9;38.2;22.2;19.1;18.6;0
+1370;From 45 to 54 years;Austria;Females;Towns and suburbs;2.0;39.2;27.0;16.9;14.9;0
+1392;From 45 to 54 years;Bulgaria;Females;Cities;7.9;29.2;20.2;21.0;21.7;0
+1404;From 45 to 54 years;Croatia;Females;Cities;1.1;21.2;17.6;24.8;35.2;0
+1429;From 45 to 54 years;Czechia;Females;Rural areas;3.3;34.7;27.1;19.9;15.0;0
+1430;From 45 to 54 years;Czechia;Females;Towns and suburbs;8.6;29.6;25.8;22.0;14.0;0
+1452;From 45 to 54 years;Estonia;Females;Cities;0.6;35.0;18.4;35.2;10.8;0
+1453;From 45 to 54 years;Estonia;Females;Rural areas;0.0;31.9;7.3;40.6;20.1;0
+1454;From 45 to 54 years;Estonia;Females;Towns and suburbs;0.0;38.3;10.2;41.4;10.1;0
+1459;From 45 to 54 years;Estonia;Males;Rural areas;4.0;35.8;28.0;21.4;10.8;0
+1488;From 45 to 54 years;Greece;Females;Cities;0.8;25.3;21.7;17.2;35.0;0
+1490;From 45 to 54 years;Greece;Females;Towns and suburbs;0.2;31.1;18.1;13.2;37.4;0
+1500;From 45 to 54 years;Hungary;Females;Cities;0.8;30.3;15.3;33.9;19.7;0
+1502;From 45 to 54 years;Hungary;Females;Towns and suburbs;2.6;21.8;12.7;36.5;26.4;0
+1512;From 45 to 54 years;Iceland;Females;Cities;0.0;36.9;28.0;24.1;11.0;0
+1513;From 45 to 54 years;Iceland;Females;Rural areas;0.0;49.4;9.3;27.9;13.4;0
+1514;From 45 to 54 years;Iceland;Females;Towns and suburbs;0.0;51.4;15.8;21.2;11.6;0
+1519;From 45 to 54 years;Iceland;Males;Rural areas;0.0;32.1;20.9;30.2;16.7;0
+1520;From 45 to 54 years;Iceland;Males;Towns and suburbs;2.4;51.5;20.7;11.5;13.9;0
+1536;From 45 to 54 years;Latvia;Females;Cities;0.7;40.6;11.5;32.3;15.0;0
+1537;From 45 to 54 years;Latvia;Females;Rural areas;0.9;35.1;6.4;38.0;19.6;0
+1538;From 45 to 54 years;Latvia;Females;Towns and suburbs;0.0;29.8;8.6;46.6;15.0;0
+1542;From 45 to 54 years;Latvia;Males;Cities;3.4;38.5;26.0;17.6;14.4;0
+1543;From 45 to 54 years;Latvia;Males;Rural areas;2.3;43.7;25.2;19.4;9.4;0
+1544;From 45 to 54 years;Latvia;Males;Towns and suburbs;1.1;43.2;17.4;21.6;16.7;0
+1548;From 45 to 54 years;Lithuania;Females;Cities;0.0;48.5;12.1;29.6;9.7;0
+1549;From 45 to 54 years;Lithuania;Females;Rural areas;0.0;41.9;3.7;35.8;18.7;0
+1550;From 45 to 54 years;Lithuania;Females;Towns and suburbs;0.0;49.8;8.4;39.6;2.2;0
+1554;From 45 to 54 years;Lithuania;Males;Cities;0.0;49.1;29.1;10.0;11.8;0
+1572;From 45 to 54 years;Malta;Females;Cities;3.5;26.4;19.1;18.5;32.5;0
+1573;From 45 to 54 years;Malta;Females;Rural areas;10.7;25.0;14.3;17.9;32.1;0
+1574;From 45 to 54 years;Malta;Females;Towns and suburbs;6.0;26.4;28.8;12.2;26.6;0
+1591;From 45 to 54 years;Norway;Females;Rural areas;0.3;57.6;28.2;0.0;13.9;0
+1602;From 45 to 54 years;Poland;Females;Cities;0.8;29.9;14.6;31.5;23.1;0
+1603;From 45 to 54 years;Poland;Females;Rural areas;0.5;25.4;5.6;40.6;28.0;0
+1604;From 45 to 54 years;Poland;Females;Towns and suburbs;1.1;31.1;10.1;33.5;24.2;0
+1609;From 45 to 54 years;Poland;Males;Rural areas;4.7;39.4;22.7;23.5;9.7;0
+1610;From 45 to 54 years;Poland;Males;Towns and suburbs;4.5;36.6;28.2;18.7;12.0;0
+1614;From 45 to 54 years;Portugal;Females;Cities;11.1;19.5;24.1;18.9;26.4;0
+1644;From 45 to 54 years;Slovakia;Females;Cities;1.3;34.8;12.4;29.5;21.9;0
+1645;From 45 to 54 years;Slovakia;Females;Rural areas;1.6;30.0;6.6;29.5;32.3;0
+1646;From 45 to 54 years;Slovakia;Females;Towns and suburbs;0.0;27.0;9.0;27.1;36.9;0
+1650;From 45 to 54 years;Slovakia;Males;Cities;4.5;29.2;28.4;23.5;14.4;0
+1656;From 45 to 54 years;Slovenia;Females;Cities;3.2;35.3;16.9;17.4;27.3;0
+1657;From 45 to 54 years;Slovenia;Females;Rural areas;3.8;23.8;17.6;24.7;30.0;0
+1658;From 45 to 54 years;Slovenia;Females;Towns and suburbs;1.7;32.5;15.5;19.9;30.4;0
+1668;From 45 to 54 years;Spain;Females;Cities;10.1;17.2;26.1;16.0;30.6;0
+1670;From 45 to 54 years;Spain;Females;Towns and suburbs;8.4;22.0;22.7;12.3;34.6;0
+1710;From 55 to 64 years;Austria;Females;Cities;5.2;34.3;29.2;12.5;18.8;0
+1711;From 55 to 64 years;Austria;Females;Rural areas;2.8;38.1;20.0;16.7;22.3;0
+1712;From 55 to 64 years;Austria;Females;Towns and suburbs;4.9;30.3;29.3;14.9;20.7;0
+1771;From 55 to 64 years;Czechia;Females;Rural areas;5.3;25.1;19.0;30.7;19.9;0
+1772;From 55 to 64 years;Czechia;Females;Towns and suburbs;3.1;27.3;23.1;30.0;16.5;0
+1794;From 55 to 64 years;Estonia;Females;Cities;0.0;27.0;5.4;48.1;19.5;0
+1795;From 55 to 64 years;Estonia;Females;Rural areas;0.1;25.8;5.0;43.1;26.0;0
+1796;From 55 to 64 years;Estonia;Females;Towns and suburbs;0.0;31.5;4.4;42.9;21.2;0
+1800;From 55 to 64 years;Estonia;Males;Cities;1.5;26.9;24.4;31.4;15.8;0
+1801;From 55 to 64 years;Estonia;Males;Rural areas;10.7;33.2;25.0;21.7;9.5;0
+1842;From 55 to 64 years;Hungary;Females;Cities;6.6;29.4;14.0;26.7;23.4;0
+1854;From 55 to 64 years;Iceland;Females;Cities;0.6;43.2;20.1;17.0;19.1;0
+1855;From 55 to 64 years;Iceland;Females;Rural areas;0.0;34.6;17.6;23.6;24.2;0
+1856;From 55 to 64 years;Iceland;Females;Towns and suburbs;0.0;46.3;5.4;25.7;22.7;0
+1878;From 55 to 64 years;Latvia;Females;Cities;0.4;28.6;6.5;42.0;22.5;0
+1879;From 55 to 64 years;Latvia;Females;Rural areas;1.5;26.1;3.4;46.1;22.9;0
+1880;From 55 to 64 years;Latvia;Females;Towns and suburbs;0.8;29.4;3.8;41.8;24.2;0
+1884;From 55 to 64 years;Latvia;Males;Cities;1.4;33.9;28.4;17.1;19.1;0
+1885;From 55 to 64 years;Latvia;Males;Rural areas;5.0;36.5;18.9;24.0;15.5;0
+1886;From 55 to 64 years;Latvia;Males;Towns and suburbs;2.7;44.2;10.9;23.2;19.0;0
+1890;From 55 to 64 years;Lithuania;Females;Cities;0.9;37.9;4.0;38.8;18.3;0
+1891;From 55 to 64 years;Lithuania;Females;Rural areas;0.0;30.7;1.9;41.3;26.0;0
+1892;From 55 to 64 years;Lithuania;Females;Towns and suburbs;0.0;18.9;5.3;50.5;25.3;0
+1896;From 55 to 64 years;Lithuania;Males;Cities;0.8;47.9;26.4;14.0;10.7;0
+1897;From 55 to 64 years;Lithuania;Males;Rural areas;2.6;48.3;18.3;15.3;15.6;0
+1920;From 55 to 64 years;Malta;Males;Cities;11.4;30.7;26.7;12.0;19.3;0
+1944;From 55 to 64 years;Poland;Females;Cities;0.9;26.4;7.7;35.7;29.2;0
+1946;From 55 to 64 years;Poland;Females;Towns and suburbs;0.6;20.1;6.4;38.5;34.3;0
+1950;From 55 to 64 years;Poland;Males;Cities;5.6;33.3;25.0;22.4;13.7;0
+1951;From 55 to 64 years;Poland;Males;Rural areas;4.7;37.1;20.2;22.7;15.3;0
+1952;From 55 to 64 years;Poland;Males;Towns and suburbs;5.3;31.1;24.2;21.3;18.1;0
+1974;From 55 to 64 years;Romania;Males;Cities;5.8;37.1;22.7;7.4;27.0;0
+1986;From 55 to 64 years;Slovakia;Females;Cities;1.7;26.7;9.8;29.6;32.3;0
+1987;From 55 to 64 years;Slovakia;Females;Rural areas;2.0;23.8;8.5;31.5;34.1;0
+1994;From 55 to 64 years;Slovakia;Males;Towns and suburbs;10.8;25.0;26.8;18.4;19.0;0
+1998;From 55 to 64 years;Slovenia;Females;Cities;5.0;25.7;16.8;21.7;30.9;0
+1999;From 55 to 64 years;Slovenia;Females;Rural areas;5.2;21.4;18.0;22.0;33.5;0
+2052;From 65 to 74 years;Austria;Females;Cities;9.7;30.6;22.6;16.3;20.8;0
+2053;From 65 to 74 years;Austria;Females;Rural areas;3.2;32.7;17.9;16.7;29.6;0
+2054;From 65 to 74 years;Austria;Females;Towns and suburbs;4.6;31.0;26.2;12.2;26.1;0
+2112;From 65 to 74 years;Czechia;Females;Cities;10.3;24.1;23.6;25.5;16.4;0
+2113;From 65 to 74 years;Czechia;Females;Rural areas;3.1;25.8;16.5;28.3;26.4;0
+2114;From 65 to 74 years;Czechia;Females;Towns and suburbs;4.9;23.4;15.3;29.7;26.7;0
+2136;From 65 to 74 years;Estonia;Females;Cities;0.0;17.6;2.8;53.4;26.3;0
+2137;From 65 to 74 years;Estonia;Females;Rural areas;0.7;15.8;3.2;48.4;31.9;0
+2142;From 65 to 74 years;Estonia;Males;Cities;3.6;37.8;19.1;20.8;18.7;0
+2143;From 65 to 74 years;Estonia;Males;Rural areas;6.9;30.4;16.1;28.2;18.3;0
+2144;From 65 to 74 years;Estonia;Males;Towns and suburbs;11.4;29.6;14.6;28.3;16.1;0
+2149;From 65 to 74 years;Finland;Females;Rural areas;0.6;26.1;16.7;26.5;30.2;0
+2150;From 65 to 74 years;Finland;Females;Towns and suburbs;0.8;28.6;28.2;20.1;22.3;0
+2196;From 65 to 74 years;Iceland;Females;Cities;1.4;38.4;17.5;21.1;21.6;0
+2197;From 65 to 74 years;Iceland;Females;Rural areas;0.0;36.9;9.9;22.4;30.8;0
+2198;From 65 to 74 years;Iceland;Females;Towns and suburbs;0.0;13.4;17.3;37.6;31.7;0
+2203;From 65 to 74 years;Iceland;Males;Rural areas;0.0;30.0;21.6;24.8;23.5;0
+2204;From 65 to 74 years;Iceland;Males;Towns and suburbs;0.0;34.6;22.2;15.0;28.2;0
+2209;From 65 to 74 years;Ireland;Females;Rural areas;3.2;22.7;26.7;12.0;35.3;0
+2226;From 65 to 74 years;Latvia;Males;Cities;6.5;30.9;15.3;25.0;22.3;0
+2227;From 65 to 74 years;Latvia;Males;Rural areas;2.4;41.2;9.2;30.6;16.6;0
+2228;From 65 to 74 years;Latvia;Males;Towns and suburbs;9.3;25.5;14.0;38.8;12.4;0
+2238;From 65 to 74 years;Lithuania;Males;Cities;2.2;28.0;14.0;21.5;34.4;0
+2239;From 65 to 74 years;Lithuania;Males;Rural areas;0.7;36.0;13.3;26.4;23.6;0
+2240;From 65 to 74 years;Lithuania;Males;Towns and suburbs;4.2;28.9;25.4;25.4;16.2;0
+2262;From 65 to 74 years;Malta;Males;Cities;15.5;26.9;15.2;21.5;20.9;0
+2292;From 65 to 74 years;Poland;Males;Cities;4.7;26.0;17.0;28.2;24.1;0
+2293;From 65 to 74 years;Poland;Males;Rural areas;3.0;27.0;14.3;29.8;25.8;0
+2294;From 65 to 74 years;Poland;Males;Towns and suburbs;3.5;26.9;16.4;28.0;25.2;0
+2316;From 65 to 74 years;Romania;Males;Cities;5.3;35.6;19.1;7.5;32.5;0
+2318;From 65 to 74 years;Romania;Males;Towns and suburbs;11.8;30.3;25.3;10.9;21.7;0
+2334;From 65 to 74 years;Slovakia;Males;Cities;9.3;21.6;19.1;23.3;26.7;0
+2335;From 65 to 74 years;Slovakia;Males;Rural areas;13.6;31.5;18.8;15.6;20.5;0
+2336;From 65 to 74 years;Slovakia;Males;Towns and suburbs;8.1;22.7;21.2;17.7;30.3;0
+2340;From 65 to 74 years;Slovenia;Females;Cities;5.9;23.6;24.8;17.8;28.0;0
+2342;From 65 to 74 years;Slovenia;Females;Towns and suburbs;6.8;24.2;14.3;23.2;31.4;0

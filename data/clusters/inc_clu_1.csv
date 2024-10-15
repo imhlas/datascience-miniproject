@@ -1,0 +1,215 @@
+;age;geo;sex;quant_inc;Every day;Every month;Every week;Less than once a month;Never or not in the last 12 months;clusters
+41;75 years or over;Bulgaria;Females;First quintile;1.7;9.4;5.9;13.5;69.5;1
+42;75 years or over;Bulgaria;Females;Fourth quintile;2.5;13.6;2.3;9.6;72.0;1
+43;75 years or over;Bulgaria;Females;Second quintile;1.1;12.5;5.8;11.3;69.3;1
+44;75 years or over;Bulgaria;Females;Third quintile;4.1;16.7;2.3;16.0;60.9;1
+51;75 years or over;Bulgaria;Males;First quintile;13.3;11.0;12.4;10.9;52.4;1
+60;75 years or over;Croatia;Females;Fifth quintile;3.1;3.1;19.4;5.2;69.3;1
+61;75 years or over;Croatia;Females;First quintile;3.2;6.5;5.1;13.1;72.1;1
+62;75 years or over;Croatia;Females;Fourth quintile;8.8;20.1;7.1;6.8;57.2;1
+63;75 years or over;Croatia;Females;Second quintile;16.8;10.6;6.0;1.2;65.4;1
+64;75 years or over;Croatia;Females;Third quintile;4.3;4.7;16.0;9.8;65.2;1
+71;75 years or over;Croatia;Males;First quintile;22.2;7.3;11.7;2.5;56.3;1
+81;75 years or over;Cyprus;Females;First quintile;0.0;3.3;0.0;3.8;92.9;1
+82;75 years or over;Cyprus;Females;Fourth quintile;3.7;6.0;14.5;4.3;71.5;1
+83;75 years or over;Cyprus;Females;Second quintile;1.5;5.8;3.0;4.8;84.9;1
+84;75 years or over;Cyprus;Females;Third quintile;0.0;6.2;1.9;8.3;83.7;1
+141;75 years or over;Estonia;Females;First quintile;0.0;7.6;0.0;25.0;67.5;1
+143;75 years or over;Estonia;Females;Second quintile;0.0;8.9;0.0;35.2;56.0;1
+161;75 years or over;Finland;Females;First quintile;0.0;16.5;8.8;16.5;58.3;1
+200;75 years or over;Greece;Females;Fifth quintile;8.5;14.8;6.0;10.2;60.5;1
+201;75 years or over;Greece;Females;First quintile;1.3;9.7;4.5;8.2;76.4;1
+202;75 years or over;Greece;Females;Fourth quintile;1.5;15.5;5.6;10.6;66.7;1
+203;75 years or over;Greece;Females;Second quintile;5.7;7.4;5.2;14.0;67.7;1
+204;75 years or over;Greece;Females;Third quintile;1.6;7.5;6.3;9.0;75.6;1
+221;75 years or over;Hungary;Females;First quintile;5.0;6.4;6.6;20.4;61.6;1
+223;75 years or over;Hungary;Females;Second quintile;10.1;7.3;4.0;18.5;60.1;1
+224;75 years or over;Hungary;Females;Third quintile;13.6;5.0;7.9;19.2;54.2;1
+241;75 years or over;Iceland;Females;First quintile;0.0;19.6;2.6;16.7;61.1;1
+263;75 years or over;Ireland;Females;Second quintile;1.0;13.6;15.6;9.2;60.6;1
+264;75 years or over;Ireland;Females;Third quintile;2.6;11.1;16.9;11.4;58.0;1
+281;75 years or over;Latvia;Females;First quintile;0.5;7.3;1.7;18.0;72.4;1
+282;75 years or over;Latvia;Females;Fourth quintile;0.0;5.9;0.0;36.0;58.1;1
+283;75 years or over;Latvia;Females;Second quintile;0.0;5.4;0.0;31.0;63.5;1
+284;75 years or over;Latvia;Females;Third quintile;0.0;5.7;3.2;30.2;60.9;1
+301;75 years or over;Lithuania;Females;First quintile;0.0;5.6;0.0;29.2;65.2;1
+303;75 years or over;Lithuania;Females;Second quintile;0.0;3.6;0.0;18.8;77.6;1
+304;75 years or over;Lithuania;Females;Third quintile;0.0;3.1;0.8;32.4;63.6;1
+341;75 years or over;Malta;Females;First quintile;2.6;11.0;3.6;18.7;64.0;1
+343;75 years or over;Malta;Females;Second quintile;5.5;11.6;12.6;11.2;59.1;1
+371;75 years or over;Norway;Females;First quintile;1.7;31.3;10.2;0.0;56.8;1
+390;75 years or over;Poland;Females;Fifth quintile;1.6;13.0;3.0;22.1;60.2;1
+391;75 years or over;Poland;Females;First quintile;0.2;6.2;1.3;7.1;85.3;1
+392;75 years or over;Poland;Females;Fourth quintile;0.0;9.1;5.1;23.4;62.4;1
+393;75 years or over;Poland;Females;Second quintile;0.2;3.0;0.2;15.9;80.7;1
+394;75 years or over;Poland;Females;Third quintile;0.0;6.2;2.6;20.1;71.1;1
+411;75 years or over;Portugal;Females;First quintile;16.1;3.1;5.5;7.7;67.6;1
+412;75 years or over;Portugal;Females;Fourth quintile;21.9;5.7;10.8;10.5;51.1;1
+413;75 years or over;Portugal;Females;Second quintile;17.4;5.5;4.8;6.9;65.3;1
+414;75 years or over;Portugal;Females;Third quintile;17.4;3.7;4.8;7.6;66.5;1
+430;75 years or over;Romania;Females;Fifth quintile;0.0;8.5;1.1;17.9;72.5;1
+431;75 years or over;Romania;Females;First quintile;1.5;10.6;3.8;7.9;76.2;1
+432;75 years or over;Romania;Females;Fourth quintile;0.5;11.9;2.4;7.3;77.9;1
+433;75 years or over;Romania;Females;Second quintile;1.2;9.5;2.7;10.2;76.5;1
+434;75 years or over;Romania;Females;Third quintile;0.3;10.6;2.1;5.1;81.9;1
+461;75 years or over;Slovakia;Females;First quintile;0.0;0.0;0.0;8.8;91.2;1
+462;75 years or over;Slovakia;Females;Fourth quintile;0.0;8.7;7.6;25.4;58.2;1
+463;75 years or over;Slovakia;Females;Second quintile;1.0;8.3;0.7;13.6;76.4;1
+464;75 years or over;Slovakia;Females;Third quintile;1.3;16.5;3.4;20.7;58.2;1
+500;75 years or over;Spain;Females;Fifth quintile;18.6;7.0;7.3;11.3;55.7;1
+501;75 years or over;Spain;Females;First quintile;8.5;6.4;1.6;8.6;75.0;1
+502;75 years or over;Spain;Females;Fourth quintile;17.4;7.1;6.6;13.7;55.3;1
+503;75 years or over;Spain;Females;Second quintile;8.9;5.9;2.6;8.1;74.6;1
+504;75 years or over;Spain;Females;Third quintile;11.3;8.8;3.6;11.9;64.4;1
+511;75 years or over;Spain;Males;First quintile;30.7;9.3;5.1;3.9;51.0;1
+521;75 years or over;Sweden;Females;First quintile;4.8;15.0;21.3;4.8;54.2;1
+540;75 years or over;Türkiye;Females;Fifth quintile;0.0;0.0;0.0;0.0;100.0;1
+541;75 years or over;Türkiye;Females;First quintile;0.0;0.0;0.0;0.0;100.0;1
+542;75 years or over;Türkiye;Females;Fourth quintile;0.0;1.4;0.0;2.0;96.6;1
+543;75 years or over;Türkiye;Females;Second quintile;0.0;0.0;0.0;1.0;99.0;1
+544;75 years or over;Türkiye;Females;Third quintile;0.0;0.0;0.0;0.0;100.0;1
+550;75 years or over;Türkiye;Males;Fifth quintile;0.0;0.0;4.0;3.2;92.8;1
+551;75 years or over;Türkiye;Males;First quintile;0.6;0.9;0.6;2.4;95.5;1
+552;75 years or over;Türkiye;Males;Fourth quintile;1.9;0.0;0.0;4.8;93.2;1
+553;75 years or over;Türkiye;Males;Second quintile;0.0;0.9;0.0;2.0;97.2;1
+554;75 years or over;Türkiye;Males;Third quintile;0.0;1.7;0.0;1.5;96.9;1
+612;From 15 to 24 years;Bulgaria;Females;Fourth quintile;0.0;15.1;6.8;20.9;57.2;1
+613;From 15 to 24 years;Bulgaria;Females;Second quintile;1.9;7.0;1.8;23.0;66.3;1
+614;From 15 to 24 years;Bulgaria;Females;Third quintile;0.0;14.8;1.7;17.5;66.0;1
+632;From 15 to 24 years;Croatia;Females;Fourth quintile;0.0;25.9;1.7;12.7;59.8;1
+634;From 15 to 24 years;Croatia;Females;Third quintile;0.0;24.8;2.7;14.1;58.5;1
+650;From 15 to 24 years;Cyprus;Females;Fifth quintile;1.0;12.6;10.7;12.5;63.1;1
+651;From 15 to 24 years;Cyprus;Females;First quintile;0.0;18.5;9.4;5.0;67.1;1
+652;From 15 to 24 years;Cyprus;Females;Fourth quintile;0.0;20.0;5.3;7.7;66.9;1
+653;From 15 to 24 years;Cyprus;Females;Second quintile;0.0;15.0;1.6;9.7;73.7;1
+654;From 15 to 24 years;Cyprus;Females;Third quintile;0.0;20.3;13.6;5.3;60.7;1
+1000;From 15 to 24 years;Romania;Females;Fifth quintile;0.0;17.2;0.8;12.7;69.4;1
+1001;From 15 to 24 years;Romania;Females;First quintile;0.0;14.5;1.4;14.9;69.3;1
+1002;From 15 to 24 years;Romania;Females;Fourth quintile;0.0;11.4;0.4;13.4;74.9;1
+1003;From 15 to 24 years;Romania;Females;Second quintile;0.0;11.6;1.7;9.1;77.6;1
+1004;From 15 to 24 years;Romania;Females;Third quintile;0.0;16.5;2.4;11.0;70.1;1
+1011;From 15 to 24 years;Romania;Males;First quintile;1.1;25.5;9.0;7.7;56.6;1
+1012;From 15 to 24 years;Romania;Males;Fourth quintile;0.0;21.4;10.2;6.0;62.4;1
+1013;From 15 to 24 years;Romania;Males;Second quintile;0.4;19.0;7.6;13.3;59.6;1
+1033;From 15 to 24 years;Slovakia;Females;Second quintile;0.0;17.2;2.5;16.8;63.5;1
+1110;From 15 to 24 years;Türkiye;Females;Fifth quintile;0.0;2.6;0.9;7.5;89.0;1
+1111;From 15 to 24 years;Türkiye;Females;First quintile;0.0;1.0;0.0;1.8;97.2;1
+1112;From 15 to 24 years;Türkiye;Females;Fourth quintile;0.0;2.2;0.3;5.6;92.0;1
+1113;From 15 to 24 years;Türkiye;Females;Second quintile;0.0;1.3;0.0;2.6;96.0;1
+1114;From 15 to 24 years;Türkiye;Females;Third quintile;0.0;1.8;0.8;3.8;93.6;1
+1120;From 15 to 24 years;Türkiye;Males;Fifth quintile;0.4;9.8;2.1;9.4;78.2;1
+1121;From 15 to 24 years;Türkiye;Males;First quintile;0.5;5.6;2.9;7.3;83.7;1
+1122;From 15 to 24 years;Türkiye;Males;Fourth quintile;0.6;12.3;3.4;10.1;73.6;1
+1123;From 15 to 24 years;Türkiye;Males;Second quintile;0.2;7.7;2.6;9.7;79.8;1
+1124;From 15 to 24 years;Türkiye;Males;Third quintile;0.2;5.0;5.0;12.0;77.8;1
+1201;From 25 to 34 years;Croatia;Females;First quintile;0.0;24.0;2.5;4.6;68.9;1
+1202;From 25 to 34 years;Croatia;Females;Fourth quintile;2.5;16.5;4.8;13.7;62.4;1
+1221;From 25 to 34 years;Cyprus;Females;First quintile;0.0;16.6;4.7;7.2;71.5;1
+1223;From 25 to 34 years;Cyprus;Females;Second quintile;0.0;23.6;7.5;4.3;64.7;1
+1224;From 25 to 34 years;Cyprus;Females;Third quintile;1.2;26.3;7.2;8.8;56.6;1
+1680;From 25 to 34 years;Türkiye;Females;Fifth quintile;0.5;7.0;1.9;9.0;81.6;1
+1681;From 25 to 34 years;Türkiye;Females;First quintile;0.4;0.6;0.3;2.9;95.7;1
+1682;From 25 to 34 years;Türkiye;Females;Fourth quintile;0.0;5.3;1.6;7.3;85.8;1
+1683;From 25 to 34 years;Türkiye;Females;Second quintile;0.0;1.3;0.3;3.9;94.5;1
+1684;From 25 to 34 years;Türkiye;Females;Third quintile;0.4;2.8;0.1;5.7;90.9;1
+1690;From 25 to 34 years;Türkiye;Males;Fifth quintile;1.2;13.9;10.6;14.3;60.0;1
+1691;From 25 to 34 years;Türkiye;Males;First quintile;0.8;9.0;3.1;9.6;77.7;1
+1692;From 25 to 34 years;Türkiye;Males;Fourth quintile;0.2;12.0;7.4;14.7;65.8;1
+1693;From 25 to 34 years;Türkiye;Males;Second quintile;0.9;9.4;2.5;12.7;74.6;1
+1694;From 25 to 34 years;Türkiye;Males;Third quintile;1.1;12.1;6.0;13.6;67.2;1
+1771;From 35 to 44 years;Croatia;Females;First quintile;0.0;3.3;5.6;18.2;72.9;1
+1773;From 35 to 44 years;Croatia;Females;Second quintile;2.7;19.5;2.2;15.1;60.4;1
+1791;From 35 to 44 years;Cyprus;Females;First quintile;0.0;7.8;4.0;7.1;81.1;1
+1792;From 35 to 44 years;Cyprus;Females;Fourth quintile;0.9;20.3;9.6;9.5;59.6;1
+1793;From 35 to 44 years;Cyprus;Females;Second quintile;0.0;22.9;2.7;12.4;62.0;1
+2250;From 35 to 44 years;Türkiye;Females;Fifth quintile;0.0;7.1;0.6;6.8;85.6;1
+2251;From 35 to 44 years;Türkiye;Females;First quintile;0.0;0.5;0.2;2.2;97.1;1
+2252;From 35 to 44 years;Türkiye;Females;Fourth quintile;0.6;2.3;0.5;6.0;90.6;1
+2253;From 35 to 44 years;Türkiye;Females;Second quintile;0.0;2.5;0.2;2.5;94.8;1
+2254;From 35 to 44 years;Türkiye;Females;Third quintile;0.0;0.5;1.5;2.4;95.6;1
+2260;From 35 to 44 years;Türkiye;Males;Fifth quintile;0.8;12.7;8.3;15.9;62.3;1
+2261;From 35 to 44 years;Türkiye;Males;First quintile;1.0;10.3;4.6;7.1;77.0;1
+2262;From 35 to 44 years;Türkiye;Males;Fourth quintile;1.4;7.8;7.6;11.5;71.6;1
+2263;From 35 to 44 years;Türkiye;Males;Second quintile;0.7;8.4;7.4;7.7;75.8;1
+2264;From 35 to 44 years;Türkiye;Males;Third quintile;1.4;8.7;6.7;9.2;74.1;1
+2341;From 45 to 54 years;Croatia;Females;First quintile;3.4;3.9;5.8;20.2;66.7;1
+2342;From 45 to 54 years;Croatia;Females;Fourth quintile;3.7;20.0;5.5;13.3;57.5;1
+2343;From 45 to 54 years;Croatia;Females;Second quintile;1.6;9.7;8.0;11.9;68.8;1
+2361;From 45 to 54 years;Cyprus;Females;First quintile;0.0;9.7;2.9;11.2;76.1;1
+2363;From 45 to 54 years;Cyprus;Females;Second quintile;0.6;16.5;6.5;9.1;67.3;1
+2364;From 45 to 54 years;Cyprus;Females;Third quintile;1.2;13.9;10.3;10.4;64.3;1
+2820;From 45 to 54 years;Türkiye;Females;Fifth quintile;0.0;2.7;0.2;7.1;89.9;1
+2821;From 45 to 54 years;Türkiye;Females;First quintile;0.0;0.9;0.0;1.6;97.5;1
+2822;From 45 to 54 years;Türkiye;Females;Fourth quintile;0.2;0.6;0.5;2.8;96.0;1
+2823;From 45 to 54 years;Türkiye;Females;Second quintile;0.0;1.2;0.2;1.8;96.9;1
+2824;From 45 to 54 years;Türkiye;Females;Third quintile;0.0;1.1;0.2;3.1;95.7;1
+2830;From 45 to 54 years;Türkiye;Males;Fifth quintile;0.7;6.8;10.3;13.7;68.5;1
+2831;From 45 to 54 years;Türkiye;Males;First quintile;1.5;6.3;4.9;7.5;79.8;1
+2832;From 45 to 54 years;Türkiye;Males;Fourth quintile;1.3;9.7;4.4;10.5;74.0;1
+2833;From 45 to 54 years;Türkiye;Males;Second quintile;1.1;10.6;6.3;5.9;76.1;1
+2834;From 45 to 54 years;Türkiye;Males;Third quintile;4.4;5.1;7.3;12.4;70.8;1
+2894;From 55 to 64 years;Bulgaria;Females;Third quintile;2.3;18.6;3.7;14.9;60.5;1
+2911;From 55 to 64 years;Croatia;Females;First quintile;8.2;14.1;1.2;7.6;69.0;1
+2912;From 55 to 64 years;Croatia;Females;Fourth quintile;12.0;16.2;6.2;3.5;62.1;1
+2913;From 55 to 64 years;Croatia;Females;Second quintile;3.4;7.1;6.6;19.4;63.6;1
+2914;From 55 to 64 years;Croatia;Females;Third quintile;3.4;15.1;9.6;8.9;63.0;1
+2930;From 55 to 64 years;Cyprus;Females;Fifth quintile;1.8;14.9;12.1;3.1;68.1;1
+2931;From 55 to 64 years;Cyprus;Females;First quintile;1.1;13.2;4.4;6.8;74.5;1
+2932;From 55 to 64 years;Cyprus;Females;Fourth quintile;1.0;20.3;4.4;10.9;63.4;1
+2933;From 55 to 64 years;Cyprus;Females;Second quintile;0.6;15.8;4.7;10.3;68.6;1
+2934;From 55 to 64 years;Cyprus;Females;Third quintile;2.0;6.2;9.7;9.8;72.2;1
+3051;From 55 to 64 years;Greece;Females;First quintile;3.6;15.8;10.4;10.8;59.4;1
+3261;From 55 to 64 years;Portugal;Females;First quintile;17.1;8.6;9.6;9.7;55.0;1
+3282;From 55 to 64 years;Romania;Females;Fourth quintile;0.8;24.8;3.1;13.7;57.6;1
+3283;From 55 to 64 years;Romania;Females;Second quintile;1.1;19.0;5.7;14.0;60.1;1
+3390;From 55 to 64 years;Türkiye;Females;Fifth quintile;0.0;3.7;0.0;4.6;91.7;1
+3391;From 55 to 64 years;Türkiye;Females;First quintile;0.0;0.5;0.0;1.4;98.1;1
+3392;From 55 to 64 years;Türkiye;Females;Fourth quintile;0.3;0.8;0.0;1.0;97.9;1
+3393;From 55 to 64 years;Türkiye;Females;Second quintile;0.0;0.6;0.0;1.1;98.3;1
+3394;From 55 to 64 years;Türkiye;Females;Third quintile;0.0;1.1;0.0;1.5;97.5;1
+3400;From 55 to 64 years;Türkiye;Males;Fifth quintile;3.3;10.9;8.4;10.3;67.0;1
+3401;From 55 to 64 years;Türkiye;Males;First quintile;0.9;4.4;1.7;5.4;87.6;1
+3402;From 55 to 64 years;Türkiye;Males;Fourth quintile;0.9;7.4;9.0;9.7;73.1;1
+3403;From 55 to 64 years;Türkiye;Males;Second quintile;0.8;6.0;7.4;5.7;80.0;1
+3404;From 55 to 64 years;Türkiye;Males;Third quintile;3.1;8.3;4.1;10.9;73.6;1
+3460;From 65 to 74 years;Bulgaria;Females;Fifth quintile;4.4;15.8;5.5;17.8;56.5;1
+3461;From 65 to 74 years;Bulgaria;Females;First quintile;2.4;15.8;4.7;11.8;65.3;1
+3463;From 65 to 74 years;Bulgaria;Females;Second quintile;0.9;11.7;5.2;14.6;67.6;1
+3480;From 65 to 74 years;Croatia;Females;Fifth quintile;3.4;6.6;0.0;21.6;68.3;1
+3481;From 65 to 74 years;Croatia;Females;First quintile;7.9;6.0;1.7;9.8;74.7;1
+3483;From 65 to 74 years;Croatia;Females;Second quintile;11.7;7.0;4.2;17.9;59.2;1
+3484;From 65 to 74 years;Croatia;Females;Third quintile;3.8;3.9;2.2;5.2;85.0;1
+3500;From 65 to 74 years;Cyprus;Females;Fifth quintile;3.9;11.8;7.6;8.1;68.6;1
+3501;From 65 to 74 years;Cyprus;Females;First quintile;0.0;8.1;2.5;8.1;81.3;1
+3502;From 65 to 74 years;Cyprus;Females;Fourth quintile;1.3;27.1;6.0;5.6;60.0;1
+3503;From 65 to 74 years;Cyprus;Females;Second quintile;2.5;4.9;3.0;7.0;82.7;1
+3504;From 65 to 74 years;Cyprus;Females;Third quintile;1.5;14.6;5.0;8.3;70.7;1
+3621;From 65 to 74 years;Greece;Females;First quintile;5.2;13.9;6.9;17.9;56.1;1
+3623;From 65 to 74 years;Greece;Females;Second quintile;6.7;9.8;6.2;13.0;64.2;1
+3624;From 65 to 74 years;Greece;Females;Third quintile;4.6;11.0;6.8;11.7;65.8;1
+3641;From 65 to 74 years;Hungary;Females;First quintile;4.3;7.6;5.4;20.2;62.5;1
+3644;From 65 to 74 years;Hungary;Females;Third quintile;4.1;10.3;10.4;19.7;55.5;1
+3811;From 65 to 74 years;Poland;Females;First quintile;0.0;11.3;4.6;26.4;57.7;1
+3813;From 65 to 74 years;Poland;Females;Second quintile;0.5;6.3;1.2;24.5;67.5;1
+3831;From 65 to 74 years;Portugal;Females;First quintile;22.4;4.3;6.6;6.2;60.5;1
+3833;From 65 to 74 years;Portugal;Females;Second quintile;17.6;4.5;11.1;9.0;57.8;1
+3834;From 65 to 74 years;Portugal;Females;Third quintile;12.6;7.5;6.1;12.2;61.6;1
+3850;From 65 to 74 years;Romania;Females;Fifth quintile;1.1;20.1;3.3;13.2;62.3;1
+3851;From 65 to 74 years;Romania;Females;First quintile;1.9;19.6;5.7;15.4;57.3;1
+3852;From 65 to 74 years;Romania;Females;Fourth quintile;0.0;16.2;4.0;11.9;67.9;1
+3853;From 65 to 74 years;Romania;Females;Second quintile;2.2;15.9;4.9;7.3;69.7;1
+3854;From 65 to 74 years;Romania;Females;Third quintile;0.6;16.9;4.3;11.0;67.2;1
+3881;From 65 to 74 years;Slovakia;Females;First quintile;0.0;4.3;8.8;21.7;65.2;1
+3921;From 65 to 74 years;Spain;Females;First quintile;5.1;10.7;4.8;12.0;67.4;1
+3923;From 65 to 74 years;Spain;Females;Second quintile;8.2;11.2;6.0;18.7;55.9;1
+3924;From 65 to 74 years;Spain;Females;Third quintile;9.7;10.6;5.1;19.3;55.3;1
+3960;From 65 to 74 years;Türkiye;Females;Fifth quintile;0.0;1.4;0.8;4.8;93.0;1
+3961;From 65 to 74 years;Türkiye;Females;First quintile;0.0;0.0;0.0;0.9;99.1;1
+3962;From 65 to 74 years;Türkiye;Females;Fourth quintile;0.0;0.5;0.0;0.7;98.8;1
+3963;From 65 to 74 years;Türkiye;Females;Second quintile;0.0;0.0;0.0;0.0;100.0;1
+3964;From 65 to 74 years;Türkiye;Females;Third quintile;0.0;0.0;0.0;0.0;100.0;1
+3970;From 65 to 74 years;Türkiye;Males;Fifth quintile;2.1;13.4;2.5;10.8;71.2;1
+3971;From 65 to 74 years;Türkiye;Males;First quintile;0.0;1.9;1.6;2.7;93.8;1
+3972;From 65 to 74 years;Türkiye;Males;Fourth quintile;1.0;1.5;2.0;1.1;94.4;1
+3973;From 65 to 74 years;Türkiye;Males;Second quintile;0.0;4.9;4.8;3.1;87.2;1
+3974;From 65 to 74 years;Türkiye;Males;Third quintile;0.7;0.7;0.6;9.0;89.1;1

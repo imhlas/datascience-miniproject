@@ -1,0 +1,41 @@
+;age;geo;sex;isced11;Every day;Every month;Every week;Less than once a month;Never or not in the last 12 months;clusters
+49;75 years or over;Cyprus;Females;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+145;75 years or over;Iceland;Females;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+193;75 years or over;Luxembourg;Females;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+205;75 years or over;Malta;Females;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+206;75 years or over;Malta;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;0.0;0.0;0.0;0.0;0
+211;75 years or over;Malta;Males;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+212;75 years or over;Malta;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;0.0;0.0;0.0;0.0;0
+277;75 years or over;Slovakia;Females;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+325;75 years or over;Türkiye;Females;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+326;75 years or over;Türkiye;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;0.0;0.0;0.0;0.0;0
+367;From 15 to 24 years;Bulgaria;Females;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+373;From 15 to 24 years;Bulgaria;Males;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+409;From 15 to 24 years;Czechia;Males;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+421;From 15 to 24 years;Denmark;Males;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+433;From 15 to 24 years;Estonia;Males;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+442;From 15 to 24 years;Finland;Males;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+469;From 15 to 24 years;Greece;Males;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+481;From 15 to 24 years;Hungary;Males;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+487;From 15 to 24 years;Iceland;Females;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+493;From 15 to 24 years;Iceland;Males;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+505;From 15 to 24 years;Ireland;Males;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+541;From 15 to 24 years;Luxembourg;Males;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+655;From 15 to 24 years;Sweden;Females;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+720;From 25 to 34 years;Croatia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+744;From 25 to 34 years;Czechia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+750;From 25 to 34 years;Czechia;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+756;From 25 to 34 years;Denmark;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+780;From 25 to 34 years;Finland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+783;From 25 to 34 years;Finland;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+864;From 25 to 34 years;Lithuania;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+972;From 25 to 34 years;Slovenia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+1122;From 35 to 44 years;Finland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+1125;From 35 to 44 years;Finland;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+1434;From 45 to 54 years;Czechia;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+1452;From 45 to 54 years;Estonia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+1536;From 45 to 54 years;Latvia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+1548;From 45 to 54 years;Lithuania;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+1554;From 45 to 54 years;Lithuania;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;0.0;0.0;0.0;0.0;0
+2257;From 65 to 74 years;Malta;Females;Tertiary education (levels 5-8);0.0;0.0;0.0;0.0;0.0;0
+2258;From 65 to 74 years;Malta;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;0.0;0.0;0.0;0.0;0

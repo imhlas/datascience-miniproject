@@ -1,0 +1,281 @@
+;age;geo;sex;isced11;Every day;Every month;Every week;Less than once a month;Never or not in the last 12 months;clusters
+0;75 years or over;Austria;Females;Less than primary, primary and lower secondary education (levels 0-2);5.0;22.8;12.3;16.8;43.1;4
+1;75 years or over;Austria;Females;Tertiary education (levels 5-8);7.5;35.1;16.8;7.4;33.2;4
+2;75 years or over;Austria;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);8.1;23.3;23.4;19.9;25.3;4
+12;75 years or over;Belgium;Females;Less than primary, primary and lower secondary education (levels 0-2);12.8;8.0;19.0;13.7;46.5;4
+30;75 years or over;Bulgaria;Males;Less than primary, primary and lower secondary education (levels 0-2);12.7;19.7;13.8;5.3;48.5;4
+31;75 years or over;Bulgaria;Males;Tertiary education (levels 5-8);10.3;18.0;12.1;12.0;47.7;4
+32;75 years or over;Bulgaria;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);12.6;29.2;20.9;9.0;28.3;4
+42;75 years or over;Croatia;Males;Less than primary, primary and lower secondary education (levels 0-2);19.5;9.9;15.3;4.3;51.0;4
+43;75 years or over;Croatia;Males;Tertiary education (levels 5-8);40.0;10.9;13.6;7.6;27.9;4
+44;75 years or over;Croatia;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);32.3;9.9;13.2;13.5;31.2;4
+54;75 years or over;Cyprus;Males;Less than primary, primary and lower secondary education (levels 0-2);15.5;15.4;11.3;10.6;47.3;4
+55;75 years or over;Cyprus;Males;Tertiary education (levels 5-8);11.7;25.9;11.4;6.3;44.8;4
+56;75 years or over;Cyprus;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);12.8;19.1;26.1;12.5;29.4;4
+60;75 years or over;Czechia;Females;Less than primary, primary and lower secondary education (levels 0-2);3.1;19.0;10.7;19.4;47.8;4
+61;75 years or over;Czechia;Females;Tertiary education (levels 5-8);5.0;30.3;16.3;23.2;25.2;4
+62;75 years or over;Czechia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);2.4;18.8;11.9;27.5;39.5;4
+66;75 years or over;Czechia;Males;Less than primary, primary and lower secondary education (levels 0-2);8.8;17.6;29.6;13.8;30.2;4
+85;75 years or over;Estonia;Females;Tertiary education (levels 5-8);0.0;8.8;1.8;45.2;44.3;4
+86;75 years or over;Estonia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;5.9;0.0;44.5;49.6;4
+90;75 years or over;Estonia;Males;Less than primary, primary and lower secondary education (levels 0-2);1.1;21.7;11.9;35.7;29.5;4
+91;75 years or over;Estonia;Males;Tertiary education (levels 5-8);6.8;24.3;10.3;36.7;21.9;4
+92;75 years or over;Estonia;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);2.7;21.0;12.3;32.4;31.5;4
+96;75 years or over;Finland;Females;Less than primary, primary and lower secondary education (levels 0-2);1.0;19.6;12.7;18.0;48.7;4
+97;75 years or over;Finland;Females;Tertiary education (levels 5-8);5.5;23.4;15.9;21.5;33.7;4
+98;75 years or over;Finland;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.2;18.2;6.0;26.1;48.4;4
+99;75 years or over;Finland;Males;Less than primary, primary and lower secondary education (levels 0-2);3.3;22.0;24.7;12.9;37.1;4
+108;75 years or over;Germany;Females;Less than primary, primary and lower secondary education (levels 0-2);9.3;25.5;16.9;13.3;34.9;4
+121;75 years or over;Greece;Females;Tertiary education (levels 5-8);20.8;35.0;3.7;8.5;32.0;4
+126;75 years or over;Greece;Males;Less than primary, primary and lower secondary education (levels 0-2);21.2;15.6;16.8;9.1;37.2;4
+128;75 years or over;Greece;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);18.8;21.6;20.5;13.1;26.0;4
+133;75 years or over;Hungary;Females;Tertiary education (levels 5-8);9.8;8.4;16.6;30.2;35.0;4
+138;75 years or over;Hungary;Males;Less than primary, primary and lower secondary education (levels 0-2);40.5;7.7;5.8;11.7;34.4;4
+140;75 years or over;Hungary;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);28.2;9.6;13.9;11.4;36.9;4
+146;75 years or over;Iceland;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;21.2;11.4;19.6;47.8;4
+150;75 years or over;Iceland;Males;Less than primary, primary and lower secondary education (levels 0-2);2.8;18.4;16.3;18.6;43.9;4
+151;75 years or over;Iceland;Males;Tertiary education (levels 5-8);4.9;30.1;10.8;15.0;39.1;4
+152;75 years or over;Iceland;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.5;24.6;17.5;26.0;30.3;4
+158;75 years or over;Ireland;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);3.3;16.8;23.9;14.4;41.5;4
+162;75 years or over;Ireland;Males;Less than primary, primary and lower secondary education (levels 0-2);9.0;12.5;29.3;6.6;42.5;4
+164;75 years or over;Ireland;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);15.6;12.8;27.9;11.0;32.8;4
+169;75 years or over;Latvia;Females;Tertiary education (levels 5-8);0.0;13.8;2.4;35.8;48.0;4
+174;75 years or over;Latvia;Males;Less than primary, primary and lower secondary education (levels 0-2);2.3;13.8;6.0;28.9;49.0;4
+175;75 years or over;Latvia;Males;Tertiary education (levels 5-8);4.4;23.0;14.9;34.1;23.6;4
+176;75 years or over;Latvia;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;18.3;4.3;42.2;35.2;4
+186;75 years or over;Lithuania;Males;Less than primary, primary and lower secondary education (levels 0-2);1.4;27.7;8.6;22.7;39.5;4
+187;75 years or over;Lithuania;Males;Tertiary education (levels 5-8);3.0;22.6;6.0;19.3;49.1;4
+188;75 years or over;Lithuania;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);2.0;23.8;18.4;22.1;33.8;4
+192;75 years or over;Luxembourg;Females;Less than primary, primary and lower secondary education (levels 0-2);6.5;19.4;21.9;8.5;43.7;4
+210;75 years or over;Malta;Males;Less than primary, primary and lower secondary education (levels 0-2);20.0;23.0;9.5;14.6;33.0;4
+222;75 years or over;Norway;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;33.5;13.3;0.0;53.2;4
+223;75 years or over;Norway;Females;Tertiary education (levels 5-8);12.4;24.9;27.8;0.0;34.9;4
+224;75 years or over;Norway;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);4.6;33.1;18.8;0.0;43.5;4
+228;75 years or over;Norway;Males;Less than primary, primary and lower secondary education (levels 0-2);3.1;36.5;21.4;0.0;39.0;4
+230;75 years or over;Norway;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);5.1;26.2;29.3;0.0;39.4;4
+235;75 years or over;Poland;Females;Tertiary education (levels 5-8);1.9;14.7;6.1;24.3;53.1;4
+240;75 years or over;Poland;Males;Less than primary, primary and lower secondary education (levels 0-2);1.4;21.0;6.5;24.5;46.6;4
+241;75 years or over;Poland;Males;Tertiary education (levels 5-8);3.1;12.1;23.7;27.5;33.7;4
+242;75 years or over;Poland;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.8;19.6;10.5;27.6;41.5;4
+248;75 years or over;Portugal;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);62.8;0.0;0.7;14.2;22.3;4
+264;75 years or over;Romania;Males;Less than primary, primary and lower secondary education (levels 0-2);6.1;25.6;15.4;7.5;45.3;4
+266;75 years or over;Romania;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);5.5;28.2;8.3;10.8;47.2;4
+282;75 years or over;Slovakia;Males;Less than primary, primary and lower secondary education (levels 0-2);6.5;32.7;16.9;13.4;30.5;4
+283;75 years or over;Slovakia;Males;Tertiary education (levels 5-8);8.1;19.2;15.7;23.5;33.4;4
+284;75 years or over;Slovakia;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);8.9;17.5;12.4;23.9;37.2;4
+288;75 years or over;Slovenia;Females;Less than primary, primary and lower secondary education (levels 0-2);9.7;15.8;13.3;16.6;44.6;4
+289;75 years or over;Slovenia;Females;Tertiary education (levels 5-8);3.0;27.3;14.4;24.3;30.9;4
+290;75 years or over;Slovenia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);7.9;19.7;13.9;22.5;36.1;4
+295;75 years or over;Slovenia;Males;Tertiary education (levels 5-8);20.5;2.8;23.8;13.2;39.7;4
+301;75 years or over;Spain;Females;Tertiary education (levels 5-8);24.0;12.7;13.4;18.4;31.5;4
+302;75 years or over;Spain;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);19.1;13.9;7.3;12.6;47.0;4
+306;75 years or over;Spain;Males;Less than primary, primary and lower secondary education (levels 0-2);39.5;8.1;9.1;6.9;36.4;4
+308;75 years or over;Spain;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);35.9;16.3;7.9;5.0;34.9;4
+312;75 years or over;Sweden;Females;Less than primary, primary and lower secondary education (levels 0-2);2.5;23.0;19.8;15.3;39.5;4
+314;75 years or over;Sweden;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);3.6;19.9;27.2;14.1;35.2;4
+336;75 years or over;United Kingdom;Females;Less than primary, primary and lower secondary education (levels 0-2);7.2;11.0;19.6;20.9;41.3;4
+368;From 15 to 24 years;Bulgaria;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.3;24.6;12.4;20.0;41.8;4
+379;From 15 to 24 years;Croatia;Females;Tertiary education (levels 5-8);3.7;16.6;2.7;31.9;45.1;4
+380;From 15 to 24 years;Croatia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;33.8;5.6;22.4;38.1;4
+391;From 15 to 24 years;Cyprus;Females;Tertiary education (levels 5-8);0.0;25.2;21.6;14.8;38.4;4
+402;From 15 to 24 years;Czechia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;26.5;12.5;19.6;41.4;4
+408;From 15 to 24 years;Czechia;Males;Less than primary, primary and lower secondary education (levels 0-2);3.6;26.8;18.1;20.1;31.4;4
+438;From 15 to 24 years;Finland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;22.5;7.6;24.5;45.5;4
+441;From 15 to 24 years;Finland;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;25.3;9.4;29.9;35.5;4
+450;From 15 to 24 years;Germany;Females;Less than primary, primary and lower secondary education (levels 0-2);0.4;32.3;18.4;20.8;28.2;4
+468;From 15 to 24 years;Greece;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;19.1;12.5;20.2;48.2;4
+476;From 15 to 24 years;Hungary;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;32.8;8.5;32.7;26.0;4
+480;From 15 to 24 years;Hungary;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;32.7;9.1;25.2;33.0;4
+486;From 15 to 24 years;Iceland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.5;26.9;6.0;22.4;44.2;4
+492;From 15 to 24 years;Iceland;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;26.7;6.5;20.4;46.5;4
+498;From 15 to 24 years;Ireland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;34.4;12.4;14.1;39.1;4
+504;From 15 to 24 years;Ireland;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;35.7;15.1;5.3;43.9;4
+516;From 15 to 24 years;Latvia;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;19.7;6.5;27.6;46.1;4
+534;From 15 to 24 years;Luxembourg;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;31.8;4.0;24.5;39.6;4
+578;From 15 to 24 years;Poland;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;30.9;10.6;27.6;30.8;4
+588;From 15 to 24 years;Portugal;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;21.1;6.5;21.5;50.9;4
+590;From 15 to 24 years;Portugal;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;33.5;14.0;25.4;27.1;4
+594;From 15 to 24 years;Portugal;Males;Less than primary, primary and lower secondary education (levels 0-2);1.1;21.7;21.6;18.4;37.2;4
+607;From 15 to 24 years;Romania;Males;Tertiary education (levels 5-8);0.0;39.9;12.5;12.4;35.2;4
+608;From 15 to 24 years;Romania;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.7;30.3;12.1;12.6;44.3;4
+620;From 15 to 24 years;Slovakia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.4;31.2;7.3;27.7;33.4;4
+624;From 15 to 24 years;Slovakia;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;25.1;10.1;10.7;54.0;4
+630;From 15 to 24 years;Slovenia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;33.7;10.2;17.8;38.4;4
+636;From 15 to 24 years;Slovenia;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;38.1;14.7;15.3;31.9;4
+642;From 15 to 24 years;Spain;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;20.7;11.5;15.7;52.0;4
+648;From 15 to 24 years;Spain;Males;Less than primary, primary and lower secondary education (levels 0-2);0.9;25.2;19.2;10.6;44.1;4
+678;From 15 to 24 years;United Kingdom;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;18.7;15.8;21.3;44.1;4
+681;From 15 to 24 years;United Kingdom;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;17.0;20.7;31.2;31.1;4
+684;From 25 to 34 years;Austria;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;16.4;4.0;35.2;44.4;4
+721;From 25 to 34 years;Croatia;Females;Tertiary education (levels 5-8);0.0;31.2;9.9;12.8;46.2;4
+733;From 25 to 34 years;Cyprus;Females;Tertiary education (levels 5-8);0.9;31.7;13.1;8.9;45.4;4
+738;From 25 to 34 years;Cyprus;Males;Less than primary, primary and lower secondary education (levels 0-2);2.0;20.9;17.8;13.4;45.9;4
+792;From 25 to 34 years;Germany;Females;Less than primary, primary and lower secondary education (levels 0-2);2.2;35.3;15.0;17.8;29.7;4
+804;From 25 to 34 years;Greece;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;23.6;18.0;13.6;44.8;4
+806;From 25 to 34 years;Greece;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.1;35.0;12.8;16.5;34.5;4
+817;From 25 to 34 years;Hungary;Females;Tertiary education (levels 5-8);0.0;28.2;13.3;34.0;24.5;4
+818;From 25 to 34 years;Hungary;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;26.9;7.1;30.4;35.6;4
+822;From 25 to 34 years;Hungary;Males;Less than primary, primary and lower secondary education (levels 0-2);7.2;21.2;20.3;20.4;30.9;4
+840;From 25 to 34 years;Ireland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;27.2;24.3;18.8;29.7;4
+852;From 25 to 34 years;Latvia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;22.6;2.8;50.7;23.9;4
+876;From 25 to 34 years;Luxembourg;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;30.4;17.2;21.6;30.8;4
+888;From 25 to 34 years;Malta;Females;Less than primary, primary and lower secondary education (levels 0-2);4.8;28.2;17.5;23.3;26.3;4
+918;From 25 to 34 years;Poland;Females;Less than primary, primary and lower secondary education (levels 0-2);4.0;22.5;2.7;26.3;44.5;4
+920;From 25 to 34 years;Poland;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.2;24.2;11.1;36.7;27.7;4
+930;From 25 to 34 years;Portugal;Females;Less than primary, primary and lower secondary education (levels 0-2);5.2;14.2;10.5;17.2;52.8;4
+932;From 25 to 34 years;Portugal;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.3;22.6;15.3;22.9;37.8;4
+942;From 25 to 34 years;Romania;Females;Less than primary, primary and lower secondary education (levels 0-2);0.2;29.5;8.1;18.5;43.7;4
+943;From 25 to 34 years;Romania;Females;Tertiary education (levels 5-8);0.0;27.5;3.7;18.4;50.4;4
+944;From 25 to 34 years;Romania;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.2;26.7;4.5;17.1;51.5;4
+960;From 25 to 34 years;Slovakia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;13.1;12.7;26.9;47.2;4
+962;From 25 to 34 years;Slovakia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.7;29.0;6.4;34.3;29.5;4
+984;From 25 to 34 years;Spain;Females;Less than primary, primary and lower secondary education (levels 0-2);1.5;23.2;8.8;17.0;49.4;4
+986;From 25 to 34 years;Spain;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.5;26.9;19.1;20.2;32.2;4
+996;From 25 to 34 years;Sweden;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;32.2;12.1;10.7;44.9;4
+1020;From 25 to 34 years;United Kingdom;Females;Less than primary, primary and lower secondary education (levels 0-2);0.8;25.4;21.0;12.7;40.1;4
+1026;From 35 to 44 years;Austria;Females;Less than primary, primary and lower secondary education (levels 0-2);0.4;31.9;7.4;33.9;26.4;4
+1032;From 35 to 44 years;Austria;Males;Less than primary, primary and lower secondary education (levels 0-2);3.7;9.8;31.6;10.8;44.1;4
+1038;From 35 to 44 years;Belgium;Females;Less than primary, primary and lower secondary education (levels 0-2);4.1;12.0;21.4;12.0;50.6;4
+1050;From 35 to 44 years;Bulgaria;Females;Less than primary, primary and lower secondary education (levels 0-2);0.5;25.3;11.0;18.4;44.8;4
+1052;From 35 to 44 years;Bulgaria;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);6.8;28.7;15.8;16.9;31.8;4
+1063;From 35 to 44 years;Croatia;Females;Tertiary education (levels 5-8);2.1;25.5;17.7;18.9;35.8;4
+1068;From 35 to 44 years;Croatia;Males;Less than primary, primary and lower secondary education (levels 0-2);8.7;28.3;26.6;5.8;30.6;4
+1070;From 35 to 44 years;Croatia;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);11.3;23.0;26.9;9.9;28.8;4
+1075;From 35 to 44 years;Cyprus;Females;Tertiary education (levels 5-8);0.0;30.0;12.1;10.6;47.2;4
+1080;From 35 to 44 years;Cyprus;Males;Less than primary, primary and lower secondary education (levels 0-2);2.9;16.1;32.7;13.9;34.4;4
+1098;From 35 to 44 years;Denmark;Females;Less than primary, primary and lower secondary education (levels 0-2);4.5;9.1;18.2;22.7;45.5;4
+1134;From 35 to 44 years;Germany;Females;Less than primary, primary and lower secondary education (levels 0-2);1.9;29.0;20.6;18.2;30.4;4
+1146;From 35 to 44 years;Greece;Females;Less than primary, primary and lower secondary education (levels 0-2);3.0;29.7;10.6;15.5;41.2;4
+1148;From 35 to 44 years;Greece;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);3.2;29.7;18.7;17.0;31.5;4
+1159;From 35 to 44 years;Hungary;Females;Tertiary education (levels 5-8);2.1;29.1;11.9;32.7;24.3;4
+1160;From 35 to 44 years;Hungary;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.3;18.9;5.0;35.3;39.5;4
+1170;From 35 to 44 years;Iceland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;30.1;9.0;40.5;20.4;4
+1194;From 35 to 44 years;Latvia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;31.2;4.7;44.5;19.6;4
+1218;From 35 to 44 years;Luxembourg;Females;Less than primary, primary and lower secondary education (levels 0-2);3.5;25.0;16.2;11.1;44.2;4
+1230;From 35 to 44 years;Malta;Females;Less than primary, primary and lower secondary education (levels 0-2);1.6;27.7;15.1;23.4;32.2;4
+1260;From 35 to 44 years;Poland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.5;31.6;9.1;23.4;35.3;4
+1262;From 35 to 44 years;Poland;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.2;29.2;7.7;36.0;26.8;4
+1272;From 35 to 44 years;Portugal;Females;Less than primary, primary and lower secondary education (levels 0-2);12.5;15.1;10.9;15.4;46.0;4
+1273;From 35 to 44 years;Portugal;Females;Tertiary education (levels 5-8);5.2;23.5;19.6;19.4;32.4;4
+1274;From 35 to 44 years;Portugal;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);6.0;27.2;15.0;20.0;31.9;4
+1284;From 35 to 44 years;Romania;Females;Less than primary, primary and lower secondary education (levels 0-2);0.6;29.6;11.3;15.3;43.2;4
+1285;From 35 to 44 years;Romania;Females;Tertiary education (levels 5-8);0.0;33.8;6.2;20.2;39.8;4
+1286;From 35 to 44 years;Romania;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.5;28.4;5.9;15.5;49.6;4
+1302;From 35 to 44 years;Slovakia;Females;Less than primary, primary and lower secondary education (levels 0-2);2.4;21.6;14.3;25.9;35.8;4
+1303;From 35 to 44 years;Slovakia;Females;Tertiary education (levels 5-8);1.0;27.4;15.6;34.7;21.4;4
+1304;From 35 to 44 years;Slovakia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.6;35.6;9.0;26.8;28.0;4
+1308;From 35 to 44 years;Slovakia;Males;Less than primary, primary and lower secondary education (levels 0-2);6.0;13.2;23.2;16.6;41.0;4
+1314;From 35 to 44 years;Slovenia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;19.6;11.1;32.2;37.1;4
+1316;From 35 to 44 years;Slovenia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.4;26.6;13.7;31.1;27.2;4
+1320;From 35 to 44 years;Slovenia;Males;Less than primary, primary and lower secondary education (levels 0-2);0.0;23.3;14.3;12.2;50.2;4
+1326;From 35 to 44 years;Spain;Females;Less than primary, primary and lower secondary education (levels 0-2);4.0;17.4;15.0;19.6;43.9;4
+1328;From 35 to 44 years;Spain;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);5.2;25.5;18.6;15.9;34.7;4
+1338;From 35 to 44 years;Sweden;Females;Less than primary, primary and lower secondary education (levels 0-2);1.8;16.4;12.4;30.0;39.5;4
+1362;From 35 to 44 years;United Kingdom;Females;Less than primary, primary and lower secondary education (levels 0-2);2.8;17.0;28.7;18.9;32.5;4
+1368;From 45 to 54 years;Austria;Females;Less than primary, primary and lower secondary education (levels 0-2);1.4;27.6;11.6;19.4;39.9;4
+1374;From 45 to 54 years;Austria;Males;Less than primary, primary and lower secondary education (levels 0-2);2.1;25.1;31.0;8.1;33.8;4
+1394;From 45 to 54 years;Bulgaria;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);5.8;25.8;17.7;21.3;29.3;4
+1405;From 45 to 54 years;Croatia;Females;Tertiary education (levels 5-8);5.1;12.5;15.3;25.6;41.5;4
+1406;From 45 to 54 years;Croatia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);4.1;17.9;10.1;14.6;53.4;4
+1417;From 45 to 54 years;Cyprus;Females;Tertiary education (levels 5-8);1.1;24.5;18.9;9.2;46.3;4
+1422;From 45 to 54 years;Cyprus;Males;Less than primary, primary and lower secondary education (levels 0-2);13.8;27.7;23.9;6.3;28.3;4
+1428;From 45 to 54 years;Czechia;Females;Less than primary, primary and lower secondary education (levels 0-2);3.1;29.8;10.1;15.3;41.6;4
+1488;From 45 to 54 years;Greece;Females;Less than primary, primary and lower secondary education (levels 0-2);2.7;22.2;12.3;12.6;50.2;4
+1490;From 45 to 54 years;Greece;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.1;32.4;18.5;13.8;34.2;4
+1500;From 45 to 54 years;Hungary;Females;Less than primary, primary and lower secondary education (levels 0-2);0.9;10.8;4.1;41.9;42.3;4
+1502;From 45 to 54 years;Hungary;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.0;20.6;9.2;38.7;30.5;4
+1506;From 45 to 54 years;Hungary;Males;Less than primary, primary and lower secondary education (levels 0-2);16.7;17.1;17.4;16.1;32.7;4
+1560;From 45 to 54 years;Luxembourg;Females;Less than primary, primary and lower secondary education (levels 0-2);2.6;21.7;30.6;13.2;31.9;4
+1572;From 45 to 54 years;Malta;Females;Less than primary, primary and lower secondary education (levels 0-2);5.5;25.7;18.3;16.9;33.5;4
+1602;From 45 to 54 years;Poland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.2;20.1;8.1;36.6;35.0;4
+1604;From 45 to 54 years;Poland;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.7;26.4;8.8;36.2;27.9;4
+1614;From 45 to 54 years;Portugal;Females;Less than primary, primary and lower secondary education (levels 0-2);15.3;11.6;16.2;15.3;41.6;4
+1615;From 45 to 54 years;Portugal;Females;Tertiary education (levels 5-8);8.8;23.1;25.4;18.5;24.1;4
+1616;From 45 to 54 years;Portugal;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);9.6;18.3;26.4;19.8;25.9;4
+1626;From 45 to 54 years;Romania;Females;Less than primary, primary and lower secondary education (levels 0-2);0.7;25.2;6.5;21.3;46.3;4
+1627;From 45 to 54 years;Romania;Females;Tertiary education (levels 5-8);1.6;33.4;7.2;15.3;42.4;4
+1628;From 45 to 54 years;Romania;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.5;28.8;6.1;18.7;45.8;4
+1644;From 45 to 54 years;Slovakia;Females;Less than primary, primary and lower secondary education (levels 0-2);1.2;23.0;13.0;29.8;32.9;4
+1645;From 45 to 54 years;Slovakia;Females;Tertiary education (levels 5-8);0.0;29.4;9.6;28.5;32.5;4
+1646;From 45 to 54 years;Slovakia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.1;31.0;8.2;28.4;31.3;4
+1668;From 45 to 54 years;Spain;Females;Less than primary, primary and lower secondary education (levels 0-2);6.2;14.2;15.8;16.8;46.8;4
+1670;From 45 to 54 years;Spain;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);10.3;19.5;23.9;14.6;31.7;4
+1680;From 45 to 54 years;Sweden;Females;Less than primary, primary and lower secondary education (levels 0-2);1.4;18.9;30.5;18.6;30.6;4
+1735;From 55 to 64 years;Bulgaria;Females;Tertiary education (levels 5-8);8.2;27.0;14.1;16.5;34.2;4
+1736;From 55 to 64 years;Bulgaria;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);3.0;25.0;13.4;15.5;43.1;4
+1747;From 55 to 64 years;Croatia;Females;Tertiary education (levels 5-8);10.6;18.5;17.6;8.6;44.7;4
+1752;From 55 to 64 years;Croatia;Males;Less than primary, primary and lower secondary education (levels 0-2);27.1;18.9;19.4;4.8;29.8;4
+1764;From 55 to 64 years;Cyprus;Males;Less than primary, primary and lower secondary education (levels 0-2);19.4;21.9;20.5;6.2;32.0;4
+1770;From 55 to 64 years;Czechia;Females;Less than primary, primary and lower secondary education (levels 0-2);6.0;17.9;19.8;27.8;28.5;4
+1794;From 55 to 64 years;Estonia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;18.2;2.1;36.9;42.9;4
+1796;From 55 to 64 years;Estonia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.1;25.9;5.0;45.9;23.2;4
+1831;From 55 to 64 years;Greece;Females;Tertiary education (levels 5-8);3.5;27.2;24.2;11.5;33.5;4
+1832;From 55 to 64 years;Greece;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);3.9;22.0;14.2;21.0;39.0;4
+1844;From 55 to 64 years;Hungary;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);3.1;16.2;8.0;36.4;36.3;4
+1848;From 55 to 64 years;Hungary;Males;Less than primary, primary and lower secondary education (levels 0-2);23.8;16.6;19.0;15.3;25.3;4
+1854;From 55 to 64 years;Iceland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;36.2;6.6;22.2;35.1;4
+1878;From 55 to 64 years;Latvia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;26.4;1.5;37.2;34.9;4
+1880;From 55 to 64 years;Latvia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.3;23.6;2.8;46.9;26.4;4
+1890;From 55 to 64 years;Lithuania;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;21.2;8.7;23.0;47.1;4
+1892;From 55 to 64 years;Lithuania;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;29.6;1.9;43.0;25.5;4
+1902;From 55 to 64 years;Luxembourg;Females;Less than primary, primary and lower secondary education (levels 0-2);8.0;19.2;28.6;12.9;31.3;4
+1914;From 55 to 64 years;Malta;Females;Less than primary, primary and lower secondary education (levels 0-2);5.7;17.6;11.6;20.9;44.2;4
+1915;From 55 to 64 years;Malta;Females;Tertiary education (levels 5-8);8.6;25.7;19.4;11.0;35.2;4
+1916;From 55 to 64 years;Malta;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);9.5;10.0;14.5;24.1;41.9;4
+1944;From 55 to 64 years;Poland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.9;15.2;1.6;34.1;48.2;4
+1945;From 55 to 64 years;Poland;Females;Tertiary education (levels 5-8);0.7;31.1;12.9;32.0;23.3;4
+1946;From 55 to 64 years;Poland;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.6;20.9;5.1;38.7;34.7;4
+1956;From 55 to 64 years;Portugal;Females;Less than primary, primary and lower secondary education (levels 0-2);19.2;10.3;12.4;11.9;46.1;4
+1957;From 55 to 64 years;Portugal;Females;Tertiary education (levels 5-8);17.8;13.9;22.2;23.2;22.9;4
+1958;From 55 to 64 years;Portugal;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);12.2;10.9;30.5;10.9;35.6;4
+1969;From 55 to 64 years;Romania;Females;Tertiary education (levels 5-8);0.0;24.7;6.1;21.1;48.1;4
+1970;From 55 to 64 years;Romania;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.7;26.2;6.1;14.3;52.7;4
+1988;From 55 to 64 years;Slovakia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.3;23.7;7.1;33.1;34.8;4
+1992;From 55 to 64 years;Slovakia;Males;Less than primary, primary and lower secondary education (levels 0-2);20.0;23.2;17.0;14.8;25.0;4
+1998;From 55 to 64 years;Slovenia;Females;Less than primary, primary and lower secondary education (levels 0-2);3.6;13.6;12.2;23.1;47.6;4
+2000;From 55 to 64 years;Slovenia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);3.7;27.0;19.4;22.6;27.2;4
+2010;From 55 to 64 years;Spain;Females;Less than primary, primary and lower secondary education (levels 0-2);10.7;14.8;13.4;13.0;48.1;4
+2052;From 65 to 74 years;Austria;Females;Less than primary, primary and lower secondary education (levels 0-2);1.3;29.3;16.5;19.8;33.1;4
+2064;From 65 to 74 years;Belgium;Females;Less than primary, primary and lower secondary education (levels 0-2);10.6;17.9;24.9;10.1;36.6;4
+2077;From 65 to 74 years;Bulgaria;Females;Tertiary education (levels 5-8);4.4;15.0;6.0;21.8;52.9;4
+2078;From 65 to 74 years;Bulgaria;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);4.0;18.8;6.3;17.1;53.7;4
+2083;From 65 to 74 years;Bulgaria;Males;Tertiary education (levels 5-8);16.2;22.8;22.7;11.3;26.9;4
+2089;From 65 to 74 years;Croatia;Females;Tertiary education (levels 5-8);10.0;14.8;4.8;22.9;47.5;4
+2094;From 65 to 74 years;Croatia;Males;Less than primary, primary and lower secondary education (levels 0-2);27.9;15.1;14.5;3.7;38.9;4
+2112;From 65 to 74 years;Czechia;Females;Less than primary, primary and lower secondary education (levels 0-2);2.3;21.0;16.6;31.5;28.5;4
+2114;From 65 to 74 years;Czechia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);6.7;25.8;18.3;26.4;22.8;4
+2136;From 65 to 74 years;Estonia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;10.1;2.1;50.9;36.9;4
+2137;From 65 to 74 years;Estonia;Females;Tertiary education (levels 5-8);0.8;21.6;3.8;43.5;30.3;4
+2138;From 65 to 74 years;Estonia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;15.7;1.9;51.2;31.3;4
+2148;From 65 to 74 years;Finland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.9;26.6;20.3;21.8;30.3;4
+2173;From 65 to 74 years;Greece;Females;Tertiary education (levels 5-8);7.1;19.3;25.9;5.2;42.4;4
+2174;From 65 to 74 years;Greece;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);6.9;15.1;14.0;18.9;45.2;4
+2185;From 65 to 74 years;Hungary;Females;Tertiary education (levels 5-8);5.8;13.9;11.2;23.3;45.8;4
+2186;From 65 to 74 years;Hungary;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);4.7;14.6;7.5;21.7;51.5;4
+2190;From 65 to 74 years;Hungary;Males;Less than primary, primary and lower secondary education (levels 0-2);20.1;16.2;19.2;5.3;39.2;4
+2196;From 65 to 74 years;Iceland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;27.2;13.4;27.8;31.6;4
+2208;From 65 to 74 years;Ireland;Females;Less than primary, primary and lower secondary education (levels 0-2);0.5;22.2;25.7;13.9;37.7;4
+2220;From 65 to 74 years;Latvia;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;12.5;1.7;32.2;53.6;4
+2221;From 65 to 74 years;Latvia;Females;Tertiary education (levels 5-8);0.6;18.6;9.2;40.8;30.7;4
+2222;From 65 to 74 years;Latvia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;16.3;2.0;40.5;41.2;4
+2232;From 65 to 74 years;Lithuania;Females;Less than primary, primary and lower secondary education (levels 0-2);0.0;6.1;4.7;37.0;52.2;4
+2233;From 65 to 74 years;Lithuania;Females;Tertiary education (levels 5-8);0.0;14.2;5.2;40.4;40.2;4
+2234;From 65 to 74 years;Lithuania;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.0;15.8;1.1;38.8;44.2;4
+2239;From 65 to 74 years;Lithuania;Males;Tertiary education (levels 5-8);4.4;20.6;14.2;25.1;35.7;4
+2256;From 65 to 74 years;Malta;Females;Less than primary, primary and lower secondary education (levels 0-2);5.7;17.3;12.4;20.6;44.0;4
+2287;From 65 to 74 years;Poland;Females;Tertiary education (levels 5-8);1.3;23.9;8.8;34.5;31.6;4
+2288;From 65 to 74 years;Poland;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);0.2;15.0;2.9;35.1;46.7;4
+2292;From 65 to 74 years;Poland;Males;Less than primary, primary and lower secondary education (levels 0-2);2.2;20.9;13.7;30.6;32.5;4
+2294;From 65 to 74 years;Poland;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);4.0;27.1;15.7;29.0;24.3;4
+2299;From 65 to 74 years;Portugal;Females;Tertiary education (levels 5-8);15.7;6.8;25.6;15.8;36.1;4
+2300;From 65 to 74 years;Portugal;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);10.5;27.9;16.3;13.4;31.9;4
+2317;From 65 to 74 years;Romania;Males;Tertiary education (levels 5-8);5.8;27.9;25.3;9.4;31.7;4
+2329;From 65 to 74 years;Slovakia;Females;Tertiary education (levels 5-8);1.7;28.4;4.1;31.6;34.2;4
+2330;From 65 to 74 years;Slovakia;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);1.2;16.8;3.3;35.0;43.7;4
+2334;From 65 to 74 years;Slovakia;Males;Less than primary, primary and lower secondary education (levels 0-2);12.5;22.4;20.0;20.1;24.9;4
+2336;From 65 to 74 years;Slovakia;Males;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);11.3;26.1;18.6;16.0;28.0;4
+2340;From 65 to 74 years;Slovenia;Females;Less than primary, primary and lower secondary education (levels 0-2);6.3;16.4;14.9;15.8;46.6;4
+2341;From 65 to 74 years;Slovenia;Females;Tertiary education (levels 5-8);9.5;27.4;19.3;18.5;25.4;4
+2346;From 65 to 74 years;Slovenia;Males;Less than primary, primary and lower secondary education (levels 0-2);21.4;14.3;24.5;7.4;32.4;4
+2353;From 65 to 74 years;Spain;Females;Tertiary education (levels 5-8);25.3;6.2;25.3;7.0;36.2;4
+2354;From 65 to 74 years;Spain;Females;Upper secondary and post-secondary non-tertiary education (levels 3 and 4);18.3;14.4;9.9;23.8;33.6;4
