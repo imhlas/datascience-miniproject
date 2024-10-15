@@ -1,7 +1,7 @@
 import pandas as pd
 
 class AlcoholDataset:
-    def __init__(self, dataset_name, dataset_group, ages = None, frequences = None) -> pd.DataFrame:
+    def __init__(self, dataset_name, dataset_group, raw_data=pd.DataFrame(), ages = None, frequences = None) -> pd.DataFrame:
         self.dataset_group = dataset_group
         self.dataset_name = dataset_name
         self.invalid_geo = [
@@ -34,8 +34,11 @@ class AlcoholDataset:
         else:
             self.frequences = frequences
 
- 
-        self.raw_data = self.get_eurostat_datasets(dataset_name)
+        if raw_data.empty:
+            self.raw_data = self.get_eurostat_datasets(dataset_name)
+        else:
+            self.raw_data = raw_data
+        
         self.cleaned_data = self.clean_data()
         self.filtered_data = self.data_filtering(self.cleaned_data)
         self.pivot_dataset = self.freq_to_columns(self.filtered_data)
@@ -60,6 +63,8 @@ class AlcoholDataset:
             condition = (dataset['isced11'] != 'All ISCED 2011 levels')
         elif self.dataset_group == 'income':
             condition = (dataset['quant_inc'] != 'Total')
+        elif self.dataset_group == 'urbanisation':
+            condition = (dataset['deg_urb'] != 'Total')
         
         dataset = dataset[
                     (dataset['age'].isin(self.ages))
@@ -78,11 +83,13 @@ class AlcoholDataset:
             index_list.append('isced11')
         elif self.dataset_group == 'income':
             index_list.append('quant_inc')
+        elif self.dataset_group == 'urbanisation':
+            index_list.append('deg_urb')
         
         self.filtered_data = dataset.pivot_table(index=index_list, 
                                                   columns='frequenc',           
                                                   values='OBS_VALUE',                
-                                                  aggfunc='sum')              
+                                                  aggfunc='mean')              
 
         return self.filtered_data.reset_index()
 
