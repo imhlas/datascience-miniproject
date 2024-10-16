@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.figure_factory as ff
+import re
 
 class DataVisualizer:
     def __init__(self, dataset_path, title):
@@ -37,60 +38,85 @@ class DataVisualizer:
     def _show_dist_plot(self):
         frequent_drinkers, occasional_drinkers, non_drinkers = self._get_drinking_habit_lists()
 
-        # Drinking distributions
-        # Create distplot with custom bin_size
-        fig_drinking = make_subplots(rows=1, cols=self.cluster_num, subplot_titles=("Frequent drinkers", "Occasional drinkers", "Non-drinkers"))
-        fig_frequent_drinkers = ff.create_distplot(frequent_drinkers,
-                self.cluster_names,
-                bin_size=[.1, .25, .5])
+        # Create a combined distplot with subplots
+        fig_drinking = make_subplots(
+            rows=1, cols=3, 
+            subplot_titles=("Frequent drinkers", "Occasional drinkers", "Non-drinkers"),
+            shared_yaxes=True  # Shared y-axis to have one legend
+        )
 
-        fig_occasional_drinkers = ff.create_distplot(occasional_drinkers,
-                self.cluster_names,
-                bin_size=[.1, .25, .5])
+        # Maintain the same bin size for all clusters
+        bin_sizes = [.1, .25, .5]
 
-        fig_non_drinkers = ff.create_distplot(non_drinkers,
-                self.cluster_names,
-                bin_size=[.1, .25, .5])
+        fig_frequent_drinkers = ff.create_distplot(frequent_drinkers, self.cluster_names, bin_size=bin_sizes)
+        fig_occasional_drinkers = ff.create_distplot(occasional_drinkers, self.cluster_names, bin_size=bin_sizes)
+        fig_non_drinkers = ff.create_distplot(non_drinkers, self.cluster_names, bin_size=bin_sizes)
 
-        # Extract traces from each distplot and add to the subplot figure
-        for trace in fig_frequent_drinkers['data']:
+        # Extract traces and ensure the legend is added only once
+        for idx, trace in enumerate(fig_frequent_drinkers['data']):
+            trace.showlegend = True if idx < self.cluster_num else False 
             fig_drinking.add_trace(trace, row=1, col=1)
 
         for trace in fig_occasional_drinkers['data']:
+            trace.showlegend = False  
             fig_drinking.add_trace(trace, row=1, col=2)
 
         for trace in fig_non_drinkers['data']:
+            trace.showlegend = False 
             fig_drinking.add_trace(trace, row=1, col=3)
 
-        # Update layout
-        fig_drinking.update_layout(showlegend=True,
-                                title_text="Drinking Behavior by Cluster",
-                                height=500,
-                                width=1200,
-                                margin=dict(l=50, r=50, t=50, b=50))
-        
+        # Manually set the y-axis range (choose a suitable max value)
+        fig_drinking.update_yaxes(range=[0, 1.1])
+
+        # Update layout to show one unified legend
+        fig_drinking.update_layout(
+            showlegend=True,  # Show one legend for the entire figure
+            title_text="Drinking Behavior by Cluster",
+            height=500,
+            width=1200,
+            margin=dict(l=50, r=50, t=50, b=50),
+            font=dict(size=14)
+        )
+
         return fig_drinking
 
     def _show_country_dist(self):
-        fig_country = make_subplots(rows=1, 
-                                    cols=self.cluster_num,
-                                    specs=[[{'type':'domain'}, {'type':'domain'}, {'type':'domain'}]])
+        fig_country = make_subplots(
+            rows=1, 
+            cols=self.cluster_num,
+            specs=[[{'type':'domain'}, {'type':'domain'}, {'type':'domain'}]]
+        )
 
         for cluster in range(0, self.cluster_num):
             cluster_data = self.data[self.data['clusters'] == cluster]
             geo_count = cluster_data['geo'].value_counts()
-            fig_country.add_trace(go.Pie(labels=geo_count.index,
-                                        values=geo_count.values,
-                                        title=f"Cluster {cluster}"), 1, cluster + 1)
+
+            # Select top 10 countries
+            top_10_countries = geo_count.nlargest(10)
+            top_10_sum = top_10_countries.sum()
+
+            # Add 'Others' as the rest of the countries
+            others_value = geo_count.sum() - top_10_sum
+            labels = top_10_countries.index.tolist() + ['Others']
+            values = top_10_countries.tolist() + [others_value]
+
+            # Create the pie chart for this cluster
+            fig_country.add_trace(go.Pie(labels=labels,
+                                        values=values,
+                                        title=f"Cluster {cluster}"), 
+                                1, cluster + 1)
 
         # Update layout to show only one legend
         fig_country.update_layout(
-            title_text="Country distribution in each cluster",
+            title_text="Country distribution (Top 10 + Others) in each cluster",
             showlegend=True, 
             width=1200,
-            height=500
+            height=500,
+            font=dict(size=14)
         )
+        
         return fig_country
+
     
     def _show_sex(self):
         
@@ -110,60 +136,114 @@ class DataVisualizer:
             title_text="Sex distribution in clusters",
             showlegend=True, 
             width=1200, 
-            height=500
+            height=500,
+            font=dict(size=14)
         )
 
         return fig_sex
     
+
     def _show_age(self):
         fig_age = go.Figure()
+
+        # Helper function to extract the starting age as an integer
+        def extract_starting_age(age_group):
+            match = re.search(r'(\d+)', age_group)
+            if match:
+                return int(match.group(1)) 
+            else:
+                return float('inf') 
 
         # Add bars for each dataset
         for cluster in range(0, self.cluster_num):
             cluster_data = self.data[self.data['clusters'] == cluster]
             age_count = cluster_data['age'].value_counts()
-            fig_age.add_trace(go.Bar(x=age_count.index, y=age_count.values, name=f'Cluster {cluster}'))
+
+            # Sort age groups by the starting age extracted
+            sorted_age_count = age_count.sort_index(key=lambda x: x.map(extract_starting_age))
+
+            # Add trace for the sorted data
+            fig_age.add_trace(go.Bar(x=sorted_age_count.index, y=sorted_age_count.values, name=f'Cluster {cluster}'))
 
         # The layout for age groups
         fig_age.update_layout(
-            title='Age group occurances in clusters',
-            xaxis_title='Age groups',
-            yaxis_title='Number of occurances',
+            title='Age group occurrences in clusters',
+            yaxis_title='Number of occurrences',
             barmode='group',
             width=1200, 
             height=500  
         )
 
         return fig_age
+
     
     def _show_edu(self):
-        colors = ['red','blue','green','orange','purple','yellow',
-                  'cyan', 'magenta', 'black', 'white']
-        traces = []
+        # Define shorter labels for x-axis
+        education_levels_order = ["Levels 0-2", "Levels 3-4", "Levels 5-8"]
+
+        # Create subplots
+        fig_edu = make_subplots(
+            rows=1, cols=self.cluster_num,
+            specs=[[{'type': 'xy'} for _ in range(self.cluster_num)]], 
+            subplot_titles=[f"Cluster {cluster}" for cluster in range(self.cluster_num)]
+        )
+
+        colors = ['red', 'blue', 'green', 'orange', 'purple', 'yellow',
+                'cyan', 'magenta', 'black', 'white']
+
+        # Add a bar chart for each cluster in a separate subplot
         for cluster in range(0, self.cluster_num):
             cluster_data = self.data[self.data['clusters'] == cluster]
             edu_count = cluster_data['isced11'].value_counts()
-            traces.append(go.Bar(
+
+            # Map the full descriptions to the shorter labels for the x-axis
+            edu_count.index = edu_count.index.map({
+                "Less than primary, primary and lower secondary education (levels 0-2)": "Levels 0-2",
+                "Upper secondary and post-secondary non-tertiary education (levels 3 and 4)": "Levels 3-4",
+                "Tertiary education (levels 5-8)": "Levels 5-8"
+            })
+
+            # Reindex to ensure all categories are present
+            edu_count = edu_count.reindex(education_levels_order, fill_value=0)
+
+            # Add trace to the specific subplot for this cluster
+            fig_edu.add_trace(go.Bar(
                 x=edu_count.index,
                 y=edu_count.values,
-                name=f'Cluster {cluster}',
-                marker_color=colors[cluster]
-            ))
+                marker_color=colors[cluster],
+                showlegend=False  
+            ), row=1, col=cluster + 1)
 
-        fig_edu = go.Figure(data=traces)
-
-        # The layout for stacked bars
+        # Update layout for the figure
         fig_edu.update_layout(
-            barmode='stack',
-            title='Education levels in clusters',
-            xaxis=dict(title='Education levels'),
-            yaxis=dict(title='Number occurances'),
+            title='Education levels by cluster',
+            yaxis_title='Number of occurrences',
             height=500,
-            width=1200
+            width=1200,
+            showlegend=False, 
+            font=dict(size=14)  
+        )
+
+        # Add explanatory text below the main title
+        fig_edu.update_layout(
+            annotations=[
+                go.layout.Annotation(
+                    text=(
+                        "<b>Levels 0-2:</b> Less than primary, primary and lower secondary education<br>"
+                        "<b>Levels 3-4:</b> Upper secondary and post-secondary non-tertiary education<br>"
+                        "<b>Levels 5-8:</b> Tertiary education"
+                    ),
+                    xref="paper", yref="paper",
+                    x=0.5, y=1.05,  
+                    xanchor="center",
+                    showarrow=False,
+                    font=dict(size=12)
+                )
+            ]
         )
 
         return fig_edu
-    
+
     def show_visualizations(self):
         # Streamlit app layout
         st.title(self.title)
