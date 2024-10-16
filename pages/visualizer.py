@@ -9,6 +9,8 @@ class DataVisualizer:
         self.dataset_path = dataset_path
         self.title = title
         self.data = None
+        self.cluster_num = None
+        self.cluster_names = None
         self.dataset_exists = True
 
     def load_data(self):
@@ -17,39 +19,37 @@ class DataVisualizer:
         except FileNotFoundError:
             self.dataset_exists = False
 
-    def show_visualizations(self):
-        # Streamlit app layout
-        st.title(self.title)
+    def _get_clusters(self):
+        self.cluster_num = len(self.data['clusters'].unique())
+        self.cluster_names = [f'Cluster {i}' for i in range(0, self.cluster_num)]
 
-        # show error if dataset was not found
-        if not self.dataset_exists:
-            st.error("Dataset not found")
-            return
+    def _get_drinking_habit_lists(self):
+        frequent_drinkers, occasional_drinkers, non_drinkers = [], [], []
+
+        for cluster in range(0, self.cluster_num):
+            cluster_data = self.data[self.data['clusters'] == cluster]
+            frequent_drinkers.append(cluster_data.loc[:, 'Frequent drinkers'])
+            occasional_drinkers.append(cluster_data.loc[:, 'Occasional drinkers'])
+            non_drinkers.append(cluster_data.loc[:, 'Non-drinkers'])
+
+        return frequent_drinkers, occasional_drinkers, non_drinkers
+
+    def _show_dist_plot(self):
+        frequent_drinkers, occasional_drinkers, non_drinkers = self._get_drinking_habit_lists()
 
         # Drinking distributions
         # Create distplot with custom bin_size
-
         fig_drinking = make_subplots(rows=1, cols=3, subplot_titles=("Frequent drinkers", "Occasional drinkers", "Non-drinkers"))
-
-        fig_frequent_drinkers = ff.create_distplot(
-                [self.data[self.data['clusters'] == 0].loc[:, 'Frequent drinkers'], 
-                self.data[self.data['clusters'] == 1].loc[:, 'Frequent drinkers'],
-                self.data[self.data['clusters'] == 2].loc[:, 'Frequent drinkers']],
-                ['Cluster 1', 'Cluster 2', 'Cluster 3'],
+        fig_frequent_drinkers = ff.create_distplot(frequent_drinkers,
+                self.cluster_names,
                 bin_size=[.1, .25, .5])
 
-        fig_occasional_drinkers = ff.create_distplot(
-                [self.data[self.data['clusters'] == 0].loc[:, 'Occasional drinkers'], 
-                self.data[self.data['clusters'] == 1].loc[:, 'Occasional drinkers'],
-                self.data[self.data['clusters'] == 2].loc[:, 'Occasional drinkers']],
-                ['Cluster 1', 'Cluster 2', 'Cluster 3'],
+        fig_occasional_drinkers = ff.create_distplot(occasional_drinkers,
+                self.cluster_names,
                 bin_size=[.1, .25, .5])
 
-        fig_non_drinkers = ff.create_distplot(
-                [self.data[self.data['clusters'] == 0].loc[:, 'Non-drinkers'], 
-                self.data[self.data['clusters'] == 1].loc[:, 'Non-drinkers'],
-                self.data[self.data['clusters'] == 2].loc[:, 'Non-drinkers']],
-                ['Cluster 1', 'Cluster 2', 'Cluster 3'],
+        fig_non_drinkers = ff.create_distplot(non_drinkers,
+                self.cluster_names,
                 bin_size=[.1, .25, .5])
 
         # Extract traces from each distplot and add to the subplot figure
@@ -67,7 +67,21 @@ class DataVisualizer:
                                 title_text="Drinking Behavior by Cluster",
                                 height=500,
                                 width=1200)
+        
+        return fig_drinking
 
+    def show_visualizations(self):
+        # Streamlit app layout
+        st.title(self.title)
+
+        # show error if dataset was not found
+        if not self.dataset_exists:
+            st.error("Dataset not found")
+            return
+
+        self._get_clusters()
+
+        fig_drinking = self._show_dist_plot()
 
         def get_static_count(cluster_data):
             geo_count = cluster_data['geo'].value_counts()
