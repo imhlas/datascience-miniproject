@@ -178,14 +178,17 @@ class DataVisualizer:
 
     
     def _show_edu(self):
-        # Define shorter labels for x-axis
-        education_levels_order = ["Levels 0-2", "Levels 3-4", "Levels 5-8"]
+        # Define the fixed order for education levels
+        education_levels_order = [
+            "Less than primary, primary and lower secondary education (levels 0-2)",
+            "Upper secondary and post-secondary non-tertiary education (levels 3 and 4)",
+            "Tertiary education (levels 5-8)"
+        ]
 
         # Create subplots
         fig_edu = make_subplots(
             rows=1, cols=self.cluster_num,
-            specs=[[{'type': 'xy'} for _ in range(self.cluster_num)]], 
-            subplot_titles=[f"Cluster {cluster}" for cluster in range(self.cluster_num)]
+            subplot_titles=[f"Cluster {i}" for i in range(self.cluster_num)]
         )
 
         colors = ['red', 'blue', 'green', 'orange', 'purple', 'yellow',
@@ -196,14 +199,7 @@ class DataVisualizer:
             cluster_data = self.data[self.data['clusters'] == cluster]
             edu_count = cluster_data['isced11'].value_counts()
 
-            # Map the full descriptions to the shorter labels for the x-axis
-            edu_count.index = edu_count.index.map({
-                "Less than primary, primary and lower secondary education (levels 0-2)": "Levels 0-2",
-                "Upper secondary and post-secondary non-tertiary education (levels 3 and 4)": "Levels 3-4",
-                "Tertiary education (levels 5-8)": "Levels 5-8"
-            })
-
-            # Reindex to ensure all categories are present
+            # Reindex edu_count to ensure all categories are present
             edu_count = edu_count.reindex(education_levels_order, fill_value=0)
 
             # Add trace to the specific subplot for this cluster
@@ -211,36 +207,21 @@ class DataVisualizer:
                 x=edu_count.index,
                 y=edu_count.values,
                 marker_color=colors[cluster],
-                showlegend=False  
+                name=f'Cluster {cluster}'
             ), row=1, col=cluster + 1)
 
         # Update layout for the figure
         fig_edu.update_layout(
             title='Education levels by cluster',
             yaxis_title='Number of occurrences',
-            height=500,
-            width=1200,
             showlegend=False, 
-            font=dict(size=14)  
+            height=500,
+            width=1200
         )
 
-        # Add explanatory text below the main title
-        fig_edu.update_layout(
-            annotations=[
-                go.layout.Annotation(
-                    text=(
-                        "<b>Levels 0-2:</b> Less than primary, primary and lower secondary education<br>"
-                        "<b>Levels 3-4:</b> Upper secondary and post-secondary non-tertiary education<br>"
-                        "<b>Levels 5-8:</b> Tertiary education"
-                    ),
-                    xref="paper", yref="paper",
-                    x=0.5, y=1.05,  
-                    xanchor="center",
-                    showarrow=False,
-                    font=dict(size=12)
-                )
-            ]
-        )
+        # Lock the x-axis categories in the specified order
+        for i in range(1, self.cluster_num + 1):
+            fig_edu.update_xaxes(categoryorder='array', categoryarray=education_levels_order, row=1, col=i)
 
         return fig_edu
 
