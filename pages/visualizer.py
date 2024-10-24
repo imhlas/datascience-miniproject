@@ -178,11 +178,17 @@ class DataVisualizer:
 
     
     def _show_edu(self):
-        # Define the fixed order for education levels
+        # Define the full names and corresponding shorter names for display
         education_levels_order = [
             "Less than primary, primary and lower secondary education (levels 0-2)",
             "Upper secondary and post-secondary non-tertiary education (levels 3 and 4)",
             "Tertiary education (levels 5-8)"
+        ]
+
+        education_levels_short = [
+            "Primary/Lower Sec (levels 0-2)",
+            "Upper Sec/Post-sec (levels 3-4)",
+            "Tertiary (levels 5-8)"
         ]
 
         # Create subplots
@@ -219,11 +225,20 @@ class DataVisualizer:
             width=1200
         )
 
-        # Lock the x-axis categories in the specified order
+        # Lock the x-axis categories in the specified order and rotate the labels
         for i in range(1, self.cluster_num + 1):
-            fig_edu.update_xaxes(categoryorder='array', categoryarray=education_levels_order, row=1, col=i)
+            fig_edu.update_xaxes(
+                categoryorder='array', 
+                categoryarray=education_levels_order,
+                tickvals=education_levels_order,  # Use full names as values
+                ticktext=education_levels_short,  # Show shortened names
+                tickangle=-45,  # Rotate the labels by 45 degrees
+                row=1, col=i
+            )
 
         return fig_edu
+
+
 
     def show_visualizations(self):
         # Streamlit app layout
