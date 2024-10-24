@@ -13,12 +13,11 @@ class DataVisualizer:
         self.cluster_num = None
         self.cluster_names = None
         self.dataset_exists = True
-        print([{'type': 'domain'} for _ in range(0, self.cluster_num)])
-        self.specs = [{'type': 'domain'} for _ in range(0, self.cluster_num)]
+        self.specs = [[{'type': 'domain'},{'type': 'domain'},{'type': 'domain'},{'type': 'domain'}]]
 
     def load_data(self):
         try:
-            self.data = pd.read_csv(self.dataset_path)
+            self.data = pd.read_csv(self.dataset_path, delimiter=';')
         except FileNotFoundError:
             self.dataset_exists = False
 
@@ -49,8 +48,7 @@ class DataVisualizer:
         )
 
         # Maintain the same bin size for all clusters
-        bin_sizes = [.1, .25, .5]
-
+        bin_sizes = [.1, .25, .5, .75]
         fig_frequent_drinkers = ff.create_distplot(frequent_drinkers, self.cluster_names, bin_size=bin_sizes)
         fig_occasional_drinkers = ff.create_distplot(occasional_drinkers, self.cluster_names, bin_size=bin_sizes)
         fig_non_drinkers = ff.create_distplot(non_drinkers, self.cluster_names, bin_size=bin_sizes)
@@ -241,12 +239,12 @@ class DataVisualizer:
 
         self._get_clusters()
 
-        fig_drinking = self._show_dist_plot()
+        #fig_drinking = self._show_dist_plot()
         fig_country = self._show_country_dist()
         fig_sex = self._show_sex()
         fig_age = self._show_age()
         
-        st.plotly_chart(fig_drinking)
+        #st.plotly_chart(fig_drinking)
         st.plotly_chart(fig_country)
         st.plotly_chart(fig_sex)
         st.plotly_chart(fig_age)
