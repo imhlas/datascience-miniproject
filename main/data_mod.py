@@ -34,10 +34,9 @@ class AlcoholDataset:
         else:
             self.frequences = frequences
 
-        if raw_data.empty:
-            self.raw_data = self.get_eurostat_datasets(dataset_name)
-        else:
-            self.raw_data = raw_data
+
+        self.raw_data = raw_data
+        print(raw_data)
  
         self.cleaned_data = self.clean_data()
         self.filtered_data = self.data_filtering(self.cleaned_data)

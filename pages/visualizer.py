@@ -13,6 +13,8 @@ class DataVisualizer:
         self.cluster_num = None
         self.cluster_names = None
         self.dataset_exists = True
+        print([{'type': 'domain'} for _ in range(0, self.cluster_num)])
+        self.specs = [{'type': 'domain'} for _ in range(0, self.cluster_num)]
 
     def load_data(self):
         try:
@@ -40,7 +42,8 @@ class DataVisualizer:
 
         # Create a combined distplot with subplots
         fig_drinking = make_subplots(
-            rows=1, cols=3, 
+            rows=1, 
+            cols=3, 
             subplot_titles=("Frequent drinkers", "Occasional drinkers", "Non-drinkers"),
             shared_yaxes=True  # Shared y-axis to have one legend
         )
@@ -84,7 +87,7 @@ class DataVisualizer:
         fig_country = make_subplots(
             rows=1, 
             cols=self.cluster_num,
-            specs=[[{'type':'domain'}, {'type':'domain'}, {'type':'domain'}]]
+            specs=self.specs
         )
 
         for cluster in range(0, self.cluster_num):
@@ -104,7 +107,7 @@ class DataVisualizer:
             fig_country.add_trace(go.Pie(labels=labels,
                                         values=values,
                                         title=f"Cluster {cluster}"), 
-                                1, cluster + 1)
+                                        1, cluster + 1)
 
         # Update layout to show only one legend
         fig_country.update_layout(
@@ -123,13 +126,15 @@ class DataVisualizer:
         #Subplot for sex information
         fig_sex = make_subplots(rows=1,
                                 cols=self.cluster_num,
-                                specs=[[{'type':'domain'},{'type':'domain'},{'type':'domain'}]])
+                                specs=self.specs)
 
         # Pie charts to each subplot
         for cluster in range(0, self.cluster_num):
             cluster_data = self.data[self.data['clusters'] == cluster]
             sex_count = cluster_data['sex'].value_counts()
-            fig_sex.add_trace(go.Pie(labels=sex_count.index, values=sex_count.values, title=f"Cluster {cluster}"), 1, cluster + 1)
+            fig_sex.add_trace(go.Pie(labels=sex_count.index,
+                                    values=sex_count.values,
+                                    title=f"Cluster {cluster}"), 1, cluster + 1)
 
         # Layout
         fig_sex.update_layout(
