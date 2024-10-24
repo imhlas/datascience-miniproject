@@ -22,15 +22,13 @@ def get_eurostat_dataset(dataset_name,force_download_flag=False):
     return data
     
 
-def load_datasets(force_download_flag=False):
+def load_datasets(dataset_name, force_download_flag=False):
     """
     Loads datasets related to alcohol consumption
     """
     
     # Get frequencies by alcohol consumption datasets
-    freq_education = get_eurostat_dataset('hlth_ehis_al1e',force_download_flag=force_download_flag)
-    freq_income = get_eurostat_dataset('hlth_ehis_al1i',force_download_flag=force_download_flag)
-    freq_urbanisation = get_eurostat_dataset('hlth_ehis_al1u',force_download_flag=force_download_flag)
-    
-    return freq_education, freq_income, freq_urbanisation
+    dataset = get_eurostat_dataset(dataset_name,force_download_flag=force_download_flag)
+
+    return dataset
     
