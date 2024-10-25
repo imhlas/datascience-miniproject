@@ -49,7 +49,7 @@ class DataVisualizer:
             self.levels_short = self.levels_order.copy()
 
         if self.title == 'Urbanisation dataset':
-            self.levels_order = ['Cities', 'Rural areas', 'Town and suburbs']
+            self.levels_order = ['Cities', 'Rural areas', 'Towns and suburbs']
             self.levels_short = self.levels_order.copy()
 
     def _get_clusters(self):
@@ -80,7 +80,7 @@ class DataVisualizer:
         )
 
         # Maintain the same bin size for all clusters
-        bin_sizes = [2, 2, 2, 2]
+        bin_sizes = [3, 3, 3, 3]
         fig_frequent_drinkers = ff.create_distplot(hist_data=frequent_drinkers,
                                                 group_labels=self.cluster_names,
                                                 bin_size=bin_sizes)
@@ -106,8 +106,6 @@ class DataVisualizer:
             trace.showlegend = False 
             fig_drinking.add_trace(trace, row=1, col=3)
 
-        # Manually set the y-axis range (choose a suitable max value)
-        fig_drinking.update_yaxes(range=[0, 0.1])
 
         # Update layout to show one unified legend
         fig_drinking.update_layout(
@@ -151,7 +149,7 @@ class DataVisualizer:
         fig_country.update_layout(
             title_text="Country distribution (Top 10 + Others) in each cluster",
             showlegend=True, 
-            width=1200,
+            width=1500,
             height=500,
             font=dict(size=14)
         )
@@ -178,7 +176,7 @@ class DataVisualizer:
         fig_sex.update_layout(
             title_text="Sex distribution in clusters",
             showlegend=True, 
-            width=1200, 
+            width=1500, 
             height=500,
             font=dict(size=14)
         )
@@ -213,7 +211,7 @@ class DataVisualizer:
             title='Age group occurrences in clusters',
             yaxis_title='Number of occurrences',
             barmode='group',
-            width=1200, 
+            width=1500, 
             height=500  
         )
 
@@ -253,7 +251,7 @@ class DataVisualizer:
             yaxis_title='Number of occurrences',
             showlegend=False, 
             height=500,
-            width=1200
+            width=1500
         )
 
         # Lock the x-axis categories in the specified order and rotate the labels
