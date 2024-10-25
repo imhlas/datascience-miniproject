@@ -13,7 +13,7 @@ class DataVisualizer:
         self.cluster_num = None
         self.cluster_names = None
         self.dataset_exists = True
-        self.specs = [[{'type': 'domain'},{'type': 'domain'},{'type': 'domain'},{'type': 'domain'}]]
+        self.specs = None
 
     def load_data(self):
         try:
@@ -24,7 +24,8 @@ class DataVisualizer:
     def _get_clusters(self):
         self.cluster_num = len(self.data['clusters'].unique())
         self.cluster_names = [f'Cluster {i}' for i in range(0, self.cluster_num)]
-
+        self.specs = [[{'type': 'domain'} for _ in range(self.cluster_num)]]
+        
     def _get_drinking_habit_lists(self):
         frequent_drinkers, occasional_drinkers, non_drinkers = [], [], []
 
@@ -254,12 +255,12 @@ class DataVisualizer:
 
         self._get_clusters()
 
-        #fig_drinking = self._show_dist_plot()
+        fig_drinking = self._show_dist_plot()
         fig_country = self._show_country_dist()
         fig_sex = self._show_sex()
         fig_age = self._show_age()
         
-        #st.plotly_chart(fig_drinking)
+        st.plotly_chart(fig_drinking)
         st.plotly_chart(fig_country)
         st.plotly_chart(fig_sex)
         st.plotly_chart(fig_age)
