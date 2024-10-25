@@ -16,8 +16,7 @@ class DataVisualizer:
         self.dataset_exists = True
         self.levels_order = None
         self.levels_order = None
-        self.specs = [[{'type': 'domain'},{'type': 'domain'},{'type': 'domain'},{'type': 'domain'}]]
-    
+        self.specs = None
 
     def load_data(self):
         try:
@@ -56,7 +55,8 @@ class DataVisualizer:
     def _get_clusters(self):
         self.cluster_num = len(self.data['clusters'].unique())
         self.cluster_names = [f'Cluster {i}' for i in range(0, self.cluster_num)]
-
+        self.specs = [[{'type': 'domain'} for _ in range(self.cluster_num)]]
+        
     def _get_drinking_habit_lists(self):
         frequent_drinkers, occasional_drinkers, non_drinkers = [], [], []
 
