@@ -12,7 +12,10 @@ class DataVisualizer:
         self.data = None
         self.cluster_num = None
         self.cluster_names = None
+        self.data_specific_column = None
         self.dataset_exists = True
+        self.levels_order = None
+        self.levels_order = None
         self.specs = None
 
     def load_data(self):
@@ -20,6 +23,34 @@ class DataVisualizer:
             self.data = pd.read_csv(self.dataset_path, delimiter=';')
         except FileNotFoundError:
             self.dataset_exists = False
+
+    def _set_dataset_column(self):
+        dict_specific_col = {'Education dataset': 'isced11',
+                            'Income dataset': 'quant_inc',
+                            'Urbanisation dataset': 'deg_urb'}
+
+        self.data_specific_column = dict_specific_col.get(self.title)
+
+        if self.title == 'Education dataset':
+            self.levels_order = [
+            "Less than primary, primary and lower secondary education (levels 0-2)",
+            "Upper secondary and post-secondary non-tertiary education (levels 3 and 4)",
+            "Tertiary education (levels 5-8)"
+            ]
+
+            self.levels_short = [
+                "Primary/Lower Sec (levels 0-2)",
+                "Upper Sec/Post-sec (levels 3-4)",
+                "Tertiary (levels 5-8)"
+            ]
+        
+        if self.title == 'Income dataset':
+            self.levels_order = ['First quintile', 'Second quintile', 'Third quintile','Fourth quintile', 'Fifth quintile']
+            self.levels_short = self.levels_order.copy()
+
+        if self.title == 'Urbanisation dataset':
+            self.levels_order = ['Cities', 'Rural areas', 'Town and suburbs']
+            self.levels_short = self.levels_order.copy()
 
     def _get_clusters(self):
         self.cluster_num = len(self.data['clusters'].unique())
@@ -49,10 +80,18 @@ class DataVisualizer:
         )
 
         # Maintain the same bin size for all clusters
-        bin_sizes = [.1, .25, .5, .75]
-        fig_frequent_drinkers = ff.create_distplot(frequent_drinkers, self.cluster_names, bin_size=bin_sizes)
-        fig_occasional_drinkers = ff.create_distplot(occasional_drinkers, self.cluster_names, bin_size=bin_sizes)
-        fig_non_drinkers = ff.create_distplot(non_drinkers, self.cluster_names, bin_size=bin_sizes)
+        bin_sizes = [2, 2, 2, 2]
+        fig_frequent_drinkers = ff.create_distplot(hist_data=frequent_drinkers,
+                                                group_labels=self.cluster_names,
+                                                bin_size=bin_sizes)
+        
+        fig_occasional_drinkers = ff.create_distplot(hist_data=occasional_drinkers,
+                                                    group_labels=self.cluster_names,
+                                                    bin_size=bin_sizes)
+        
+        fig_non_drinkers = ff.create_distplot(hist_data=non_drinkers,
+                                            group_labels=self.cluster_names,
+                                            bin_size=bin_sizes)
 
         # Extract traces and ensure the legend is added only once
         for idx, trace in enumerate(fig_frequent_drinkers['data']):
@@ -68,14 +107,14 @@ class DataVisualizer:
             fig_drinking.add_trace(trace, row=1, col=3)
 
         # Manually set the y-axis range (choose a suitable max value)
-        fig_drinking.update_yaxes(range=[0, 1.1])
+        fig_drinking.update_yaxes(range=[0, 0.1])
 
         # Update layout to show one unified legend
         fig_drinking.update_layout(
             showlegend=True,  # Show one legend for the entire figure
             title_text="Drinking Behavior by Cluster",
             height=500,
-            width=1200,
+            width=1500,
             margin=dict(l=50, r=50, t=50, b=50),
             font=dict(size=14)
         )
@@ -181,23 +220,12 @@ class DataVisualizer:
         return fig_age
 
     
-    def _show_edu(self):
-        # Define the full names and corresponding shorter names for display
-        education_levels_order = [
-            "Less than primary, primary and lower secondary education (levels 0-2)",
-            "Upper secondary and post-secondary non-tertiary education (levels 3 and 4)",
-            "Tertiary education (levels 5-8)"
-        ]
 
-        education_levels_short = [
-            "Primary/Lower Sec (levels 0-2)",
-            "Upper Sec/Post-sec (levels 3-4)",
-            "Tertiary (levels 5-8)"
-        ]
-
+    def _show_dataset_bars(self):
         # Create subplots
         fig_edu = make_subplots(
-            rows=1, cols=self.cluster_num,
+            rows=1,
+            cols=self.cluster_num,
             subplot_titles=[f"Cluster {i}" for i in range(self.cluster_num)]
         )
 
@@ -207,22 +235,21 @@ class DataVisualizer:
         # Add a bar chart for each cluster in a separate subplot
         for cluster in range(0, self.cluster_num):
             cluster_data = self.data[self.data['clusters'] == cluster]
-            edu_count = cluster_data['isced11'].value_counts()
+            value_count = cluster_data[self.data_specific_column].value_counts()
 
             # Reindex edu_count to ensure all categories are present
-            edu_count = edu_count.reindex(education_levels_order, fill_value=0)
-
+            value_count = value_count.reindex(self.levels_order, fill_value=0)
             # Add trace to the specific subplot for this cluster
             fig_edu.add_trace(go.Bar(
-                x=edu_count.index,
-                y=edu_count.values,
+                x=value_count.index,
+                y=value_count.values,
                 marker_color=colors[cluster],
                 name=f'Cluster {cluster}'
             ), row=1, col=cluster + 1)
 
         # Update layout for the figure
         fig_edu.update_layout(
-            title='Education levels by cluster',
+            title=f'{self.title.split(" ")[0]} levels by cluster',
             yaxis_title='Number of occurrences',
             showlegend=False, 
             height=500,
@@ -233,9 +260,9 @@ class DataVisualizer:
         for i in range(1, self.cluster_num + 1):
             fig_edu.update_xaxes(
                 categoryorder='array', 
-                categoryarray=education_levels_order,
-                tickvals=education_levels_order,  # Use full names as values
-                ticktext=education_levels_short,  # Show shortened names
+                categoryarray=self.levels_order,
+                tickvals=self.levels_order,  # Use full names as values
+                ticktext=self.levels_short,  # Show shortened names
                 tickangle=-45,  # Rotate the labels by 45 degrees
                 row=1, col=i
             )
@@ -265,6 +292,7 @@ class DataVisualizer:
         st.plotly_chart(fig_sex)
         st.plotly_chart(fig_age)
         
-        if self.title == 'Education dataset':
-            fig_edu = self._show_edu()
-            st.plotly_chart(fig_edu)
+        self._set_dataset_column()
+        if self.levels_order is not None:
+            fig_dataset = self._show_dataset_bars()
+            st.plotly_chart(fig_dataset)
