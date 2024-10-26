@@ -97,7 +97,8 @@ class AlcoholDataset:
         return self.filtered_data.reset_index()
     
     def frequency_reduction(self):
-        self.filtered_data['frequenc'] = self.filtered_data['frequenc'].replace({
+        aux=self.filtered_data.copy()
+        aux['frequenc']= self.filtered_data['frequenc'].replace({
         'Every day': 'Frequent drinkers',
         'Every week': 'Frequent drinkers',
         'Every month': 'Occasional drinkers',
@@ -106,6 +107,7 @@ class AlcoholDataset:
         'Not in the last 12 months': 'Non-drinkers',
         'Never or not in the last 12 months': 'Non-drinkers'
         })
+        self.filtered_data=aux
 
     def get_dataset(self):
         return self.pivot_dataset
