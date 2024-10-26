@@ -2,6 +2,17 @@ from kmodes.kprototypes import KPrototypes
 from kneed import KneeLocator
     
 def elbow(data,cat):
+    """
+    Tests the accuracy of different number of clusters.
+    
+    Parameters:
+    - data (Pandas dataframe)
+    - cat (list): Specifies which columns in the cleaned data consist of categorical values. In this case [0,1,2,3]
+    
+    Returns:
+    - costs (dict): Consisting of the elbow scores for each number of clusters.
+    """
+    
     print("Fitting models with k = ",end="",flush=True)
     costs={}
     for num_clusters in list(range(2,10)):
@@ -12,6 +23,17 @@ def elbow(data,cat):
     return costs
 
 def chooseK(data, cat):
+    """
+    Function that uses the ready-made kneed package to calculate the optimal value of clusters
+
+    Parameters:
+    - data (Pandas dataframe)
+    - cat (list): Specifies which columns in the cleaned data consist of categorical values. In this case [0,1,2,3]
+    
+    Returns:
+    - K (int): optimal number of clusters
+    """
+    
     costs = elbow(data,cat)
     
     cost_knee_c3 = KneeLocator(
@@ -25,6 +47,18 @@ def chooseK(data, cat):
     return K
      
 def cluster(data,cat,K=0):
+    """
+    Function that first removes the empty rows from the clean data and then uses the KPrototypes function to cluster the data.
+    
+    Parameters:
+    - data (Pandas dataframe)
+    - cat (list): Specifies which columns in the cleaned data consist of categorical values. In this case [0,1,2,3]
+    - K (int): Optimal number of clusters, if 0 calls the chooseK function.
+    
+    Returns:
+    - data_with_clusters (Pandas dataframe): same as data, but now it contains column "clusters" with int values indicating to which cluster the row belongs.
+    """
+    
     df=data.copy()
     
     # Removing rows with not enough data
