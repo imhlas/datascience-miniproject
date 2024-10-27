@@ -16,4 +16,4 @@ The codebase consists of four folders:
 
 Everything works at least in python 3.10.12, using a virtual environment as explained in https://docs.python.org/3/library/venv.html.
 
-After creating and activating the environment, which is done to avoid dependency conflicts, install the required packages running `$ pip install kneed streamlit plotly kmodes`.
+After creating and activating the environment, which is done to avoid dependency conflicts, install the required packages running `pip install -r <YOUR FOLDER>/datascience-miniproject/requirements.txt` or `pip install kneed streamlit plotly kmodes`.
